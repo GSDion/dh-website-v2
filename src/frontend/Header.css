@@ -1,0 +1,39 @@
+.header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+
+    
+}
+
+.header_title {
+    /*add logo and center logo to left of title*/
+    display:flex;
+    align-items:flex-end;
+    color: rgb(190, 185, 185);
+    margin-left: 10px;
+}
+
+.header_links {
+    display: flex;
+    justify-content: flex-end;
+    color:rgb(190, 185, 185);
+  }
+  
+  .header_link {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    
+  }
+
+  .a:visited {
+    color:rgb(190, 185, 185);
+  }
