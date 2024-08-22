@@ -1,0 +1,22 @@
+.Intro {
+    
+    height:100vh;
+    
+    /* box-sizing:border-box; */
+    
+}
+
+.Intro_words {
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+h1 {
+    color:rgb(190, 185, 185);
+    font-size: 50px;
+}
+
+p {
+    color:rgb(190, 185, 185);
+    
+}
