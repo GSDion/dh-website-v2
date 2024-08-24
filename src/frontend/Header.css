@@ -2,11 +2,13 @@
     display:flex;
     align-items: center;
     justify-content: space-between;
-    background-color: transparent;
-    height: 70px;
-    /* margin-top: 10px; */
-    margin-left: 10px;
-    margin-right: 10px;
+    background-color: rgb(40, 44, 52);
+   
+    /* height: 70px; */
+    margin-top: 0px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    /* border at bottom, like a flap when it scrolls */
     
 
     
@@ -20,13 +22,13 @@
     margin-left: 10px;
 }
 
-.header_links {
+.header_hrefs {
     display: flex;
     justify-content: flex-end;
     color:rgb(190, 185, 185);
   }
   
-  .header_link {
+  .header_hrefs {
     margin-left: 10px;
     margin-right: 10px;
     text-decoration: none;
@@ -34,14 +36,17 @@
     
   }
 
-  a:visited {
+ div.header_hrefs a:visited {
     color:rgb(190, 185, 185);
   }
 
-  a:link {
+  div.header_hrefs  a:link {
     color:rgb(190, 185, 185);
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
-  a:hover {
+  div.header_hrefs  a:hover {
     color:rgb(190, 185, 185);
   }

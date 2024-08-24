@@ -8,13 +8,35 @@ import Contact from './Contact/Contact'
 
 function Homepage() {
     return (
+      
       <div>
-         <Header/>
-         <Intro/>
-         <About/>
-         <Skills/>
-         <Projects/>
-         <Contact/>
+        
+        <div id = 'header'>
+          <Header/>
+        </div>
+
+        <div id = "content">
+        <div id ="intro">
+          <Intro/>
+          </div>
+
+          <div id ="about">
+          <About/>
+          </div>
+
+          <div id ="skills">
+          <Skills/>
+          <a href=".#about">jump link</a>
+          </div>
+
+          <div id ="projects">
+          <Projects/>
+          </div>
+
+          <div id ="contact">
+          <Contact/>
+        </div>
+        </div>
          
     </div>
        
