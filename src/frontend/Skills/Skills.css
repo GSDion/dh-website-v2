@@ -1,3 +1,13 @@
 .Skills {
     height:100vh;
 }
+
+.Skills_title {
+    margin-left: 44%;
+    padding-top: 56px;
+}
+
+div.Skills_title h1 {
+    font-size: 50px;
+    color:rgb(190, 185, 185);
+}

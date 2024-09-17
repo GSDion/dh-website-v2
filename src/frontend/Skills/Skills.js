@@ -4,7 +4,15 @@ import './Skills.css';
 function Skills() {
     return (
       <div className = 'Skills'>
-       <p>Skills</p>
+
+      <div className='Skills_title'>
+       <h1>Skills</h1>
+      </div>
+
+      <div className='Skills_list'>
+
+      </div>
+
       </div>
     );
   }
