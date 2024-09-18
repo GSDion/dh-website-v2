@@ -1,4 +1,3 @@
-import Header from "../Header";
 import './About.css';
 //add some animations to the background (rainbow like intro?)
 
@@ -24,7 +23,7 @@ function About() {
           </div>
 
           <div className = 'About_photo'> 
-            <img src={require('../pictures/DH_portfolio.jpg')} alt="DH_portfolio" />
+            <img src={require('../Pictures/DH_portfolio.jpg')} alt="DH_portfolio" />
           </div>
       </div>
         
