@@ -1,4 +1,6 @@
 import './Projects.css';
+import './ProjectsCard';
+import ProjectsCard from './ProjectsCard';
 
 function Projects() {
     return (
@@ -9,6 +11,23 @@ function Projects() {
         </div>
 
         <div className='Projects_list'>
+          <ProjectsCard 
+            ProjectsCardImage={require('../Pictures/java_logo.webp')} 
+            ProjectsCardTitle='DCC - Movie Review Website'
+            ProjectsCardAttribtutes='React, CSS, MongoDB, Express.js, Node.js, Git'
+          />
+
+          <ProjectsCard 
+            ProjectsCardImage={require('../Pictures/java_logo.webp')} 
+            ProjectsCardTitle='Library Management System'
+            ProjectsCardAttribtutes='Java, Java Swing, MySQL, Git'
+          />
+
+          <ProjectsCard
+            ProjectsCardImage={require('../Pictures/java_logo.webp')} 
+            ProjectsCardTitle='Bookit - E-Cinema Booking Site'
+            ProjectsCardAttribtutes='React, CSS, MySQL, Java SpringBoot, Git, Agile, Scrum'
+          />
 
         </div>
       </div>

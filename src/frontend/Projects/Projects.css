@@ -14,3 +14,12 @@ div.Projects_title h1 {
     font-size: 50px;
     color:rgb(40, 44, 52);
 }
+
+
+.Projects_list {
+    padding-top: 0px;
+    display: flex;
+    justify-content:left;
+    
+
+}

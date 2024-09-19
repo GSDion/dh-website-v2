@@ -1,0 +1,37 @@
+/* Card.css */
+.ProjectsCard {
+    width: 430px;
+    height: 430px;
+    
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(40, 44, 52);
+  }
+  
+  .Projectscard-image {
+    width:230px;
+    height: 230px;
+    /* height: auto; */
+    margin-top: 20px; /* Add space between top and image */
+    border-radius: 8px;
+    mix-blend-mode:multiply;
+  }
+  
+  .Projectscard-title {
+    margin-top: 70px; /* Add space between image and title */
+    font-size: 1.2rem;
+    color:rgb(190, 185, 185);
+  }
+  
+  .Projectscard-attributes {
+    margin-top: 20px; /* Add space between image and title */
+    font-size: 1.2rem;
+    color:rgb(190, 185, 185);
+  }
