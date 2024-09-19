@@ -1,10 +1,16 @@
-import Header from "../Header";
 import './Projects.css';
 
 function Projects() {
     return (
       <div className = 'Projects'>
-       <p>Projects</p>
+        
+        <div className='Projects_title'>
+          <h1>Projects</h1>
+        </div>
+
+        <div className='Projects_list'>
+
+        </div>
       </div>
     );
 }  

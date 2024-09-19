@@ -2,3 +2,15 @@
     height:100vh;
     background-color: rgb(190, 185, 185);
 }
+
+.Projects_title {
+    margin-left: 44%;
+    padding-top: 56px;
+    padding-bottom: 0px;
+    
+}
+
+div.Projects_title h1 {
+    font-size: 50px;
+    color:rgb(40, 44, 52);
+}
