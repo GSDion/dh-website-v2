@@ -1,0 +1,74 @@
+.Footer {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(190, 185, 185);
+    margin-top: 0px;
+    height:120px;
+}
+
+.Footer_copyright p {
+    color:rgb(40, 44, 52);
+    display:flex;
+    align-items:flex-end;
+    margin:30px;
+}
+
+.Footer_nav_links {
+    display: flex;
+    justify-content: flex-end;
+    color:rgb(40, 44, 52);
+    margin-left: 10px;
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+
+ div.Footer_nav_links a:visited {
+    color:rgb(40, 44, 52);
+  }
+
+  div.Footer_nav_links a:link {
+    color:rgb(40, 44, 52);
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  div.Footer_nav_links  a:hover {
+    color:rgb(40, 44, 52);
+  }
+
+/* Social Media icons */
+.Footer_social_links a {
+    margin:10px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-linkedin {
+    background: rgb(40, 44, 52);
+    color: rgb(190, 185, 185);
+  }
+
+  .fa-github {
+    background: rgb(40, 44, 52);
+    color: rgb(190, 185, 185);
+  }
+
+  .fa-yahoo {
+    background: rgb(40, 44, 52);
+    color: rgb(190, 185, 185);
+  }

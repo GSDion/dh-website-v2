@@ -33,15 +33,12 @@ div.Header_title h1 {
     display: flex;
     justify-content: flex-end;
     color:rgb(190, 185, 185);
-  }
-  
-  .Header_hrefs {
     margin-left: 10px;
     margin-right: 10px;
     text-decoration: none;
     font-size: 20px;
-    
   }
+  
 
  div.Header_hrefs a:visited {
     color:rgb(190, 185, 185);

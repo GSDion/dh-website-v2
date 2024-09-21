@@ -5,6 +5,7 @@ import Skills from './Skills/Skills';
 import Projects from './Projects/Projects';
 import Intro from './Intro/Intro';
 import Contact from './Contact/Contact'
+import Footer from "./Footer";
 
 function Homepage() {
     return (
@@ -17,28 +18,31 @@ function Homepage() {
 
         <div id = "content">
         <div id ="intro">
-          <Intro/>
+            <Intro/>
           </div>
 
           <div id ="about">
-          <About/>
+            <About/>
           </div>
 
           <div id ="skills">
-          <Skills/>
-          <a href=".#about">jump link</a>
+            <Skills/>
           </div>
 
           <div id ="projects">
-          <Projects/>
+            <Projects/>
           </div>
 
           <div id ="contact">
-          <Contact/>
-        </div>
-        </div>
-         
-    </div>
+            <Contact/>
+          </div> 
+        
+          <Footer/>
+        </div> {/* Content end */}
+     
+
+    {/* Parent div end */}
+    </div>   
        
     );
   }

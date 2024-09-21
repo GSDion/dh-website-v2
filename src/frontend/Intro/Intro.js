@@ -2,6 +2,9 @@
 import './Intro.css';
 
 function Intro() {
+  const handleResumeClick = () => {
+    window.open(require('../Files/DH_Resume_v5.pdf'), '_blank');
+  };
     return (
       
       <div className = 'Intro'>
@@ -11,7 +14,11 @@ function Intro() {
           <h1>My name is Dion.</h1>
           <p>I am a Software Engineer that can manage both the front and back end. </p>
           <p>I am adept at Java, Python, Javascript, CSS, HTML, React, Node.js, and more. </p>
-          <button>Resume</button>
+          
+          <button onClick={handleResumeClick}>
+            Resume
+          </button>
+
         </div>
       </div>
     );
