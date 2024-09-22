@@ -1,3 +1,5 @@
+html { scroll-behavior: smooth; } /* smooth scrolling behavior for all anchor tags */
+
 .Header {
     display:flex;
     align-items: center;

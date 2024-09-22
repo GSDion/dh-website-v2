@@ -12,19 +12,19 @@ function Projects() {
 
         <div className='Projects_list'>
           <ProjectsCard 
-            ProjectsCardImage={require('../Pictures/java_logo.webp')} 
+            ProjectsCardImage={require('../Pictures/DCC_homepage_logged_out.png')} 
             ProjectsCardTitle='DCC - Movie Review Website'
             ProjectsCardAttribtutes='React, CSS, MongoDB, Express.js, Node.js, Git'
           />
 
           <ProjectsCard 
-            ProjectsCardImage={require('../Pictures/java_logo.webp')} 
+            ProjectsCardImage={require('../Pictures/DCC_homepage_logged_out.png')} 
             ProjectsCardTitle='Library Management System'
             ProjectsCardAttribtutes='Java, Java Swing, MySQL, Git'
           />
 
           <ProjectsCard
-            ProjectsCardImage={require('../Pictures/java_logo.webp')} 
+            ProjectsCardImage={require('../Pictures/DCC_homepage_logged_out.png')} 
             ProjectsCardTitle='Bookit - E-Cinema Booking Site'
             ProjectsCardAttribtutes='React, CSS, MySQL, Java SpringBoot, Git, Agile, Scrum'
           />

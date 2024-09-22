@@ -8,6 +8,8 @@ function Contact() {
             <h1>Contact Me</h1>
         </div>
 
+        {/* <p>Email: humphreydion@yahoo.com</p> */}
+
         <div className='Contact_form_container'>
 
         <label for="name">Full Name</label>
