@@ -11,7 +11,12 @@ function Intro() {
         
         <div className = 'Intro_content'>
           <h1>Hi!</h1>
+        <div className="Intro_repeating_text">
           <h1>My name is Dion.</h1>
+        </div>
+         
+      
+
           <p>I am a Software Engineer that can manage both the front and back end. </p>
           <p>I am adept at Java, Python, Javascript, CSS, HTML, React, Node.js, and more. </p>
           
