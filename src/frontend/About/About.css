@@ -1,15 +1,15 @@
 .About {
-    height:100vh;
+    height: 100%;
     background-color: rgb(190, 185, 185);
 }
 
 .About_title {
-    margin-left: 44%;
-    padding-top: 56px;
+    text-align: center;
+    padding-top: 4rem;
  
 }
 div.About_title h1 {
-    font-size: 50px;
+    font-size: 2.8rem;
     color:rgb(40, 44, 52);
 }
 
@@ -17,17 +17,23 @@ div.About_title h1 {
     display:flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: 250px;
+    /* margin-left: 250px;
     margin-right: 300px;
-    margin-top:100px;
+    margin-top:100px; */
+    margin-left:20%;
+    margin-right:20%;
+    margin-top: 5%;
 }
 .About_paragraph {
     color: rgb(40, 44, 52);
+    font-size: 1rem;
+    text-wrap: wrap;
 }
 div.About_photo img {
-    height:300px;
-    width:300px;
+    height:12rem;
+    width:12rem;
     border-radius: 50%;
     border-style: double;
     border-color:rgb(40, 44, 52);
+    
 }

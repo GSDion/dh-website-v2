@@ -1,10 +1,13 @@
 import './About.css';
+import React, { useEffect, useState } from 'react';
 //add some animations to the background (rainbow like intro?)
 
 
 function About() {
+    
+  
     return (
-      <div className =  'About Dion'>
+      <div className =  'About Dion' >
 
         <div className = 'About_title '>
         <h1>About</h1>

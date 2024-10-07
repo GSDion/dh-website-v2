@@ -1,6 +1,6 @@
 .Intro {
     
-    height:100vh;
+    height:100%;
     
     /* box-sizing:border-box; */
     
@@ -9,6 +9,7 @@
 .Intro_content {
     margin-left: 200px;
     margin-top: 75px;
+    margin-bottom: 150px;
 }
 
 div.Intro_content h1 {
@@ -36,7 +37,7 @@ div.Intro_content h1 {
 
 div.Intro_content p{
     color:rgb(190, 185, 185);
-    font-size: 22px;
+    font-size: 1.2rem;
     margin-left:18px;
     
 }

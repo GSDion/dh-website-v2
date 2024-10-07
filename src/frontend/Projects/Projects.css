@@ -4,14 +4,14 @@
 }
 
 .Projects_title {
-    margin-left: 42%;
-    padding-top: 56px;
+    text-align: center;
+    padding-top: 3rem;
     padding-bottom: 0px;
     
 }
 
 div.Projects_title h1 {
-    font-size: 50px;
+    font-size: 2.8rem;
     color:rgb(40, 44, 52);
    
 }
