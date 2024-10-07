@@ -19,5 +19,5 @@ div.Skills_title h1 {
     display: flex;
     justify-content:left;
     flex-wrap: wrap;
-
+    flex-grow:1;
 }

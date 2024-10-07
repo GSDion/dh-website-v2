@@ -17,11 +17,11 @@ function Projects() {
             ProjectsCardAttribtutes='React, CSS, MongoDB, Express.js, Node.js, Git'
           />
 
-          <ProjectsCard 
+          {/* <ProjectsCard 
             ProjectsCardImage={require('../Pictures/DCC_homepage_logged_out.png')} 
             ProjectsCardTitle='Library Management System'
             ProjectsCardAttribtutes='Java, Java Swing, MySQL, Git'
-          />
+          /> */}
 
           <ProjectsCard
             ProjectsCardImage={require('../Pictures/DCC_homepage_logged_out.png')} 

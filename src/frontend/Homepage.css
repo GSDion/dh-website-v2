@@ -4,10 +4,11 @@
     top: 0;
     
 }
+/* Ensures reponsive containers */
 .Intro {
     display: flex;
     flex-direction: column;
-     flex-grow: 1;                                     /* Makes sure this container fills up all the available space */
+     flex-grow: 1;  /* Makes sure container fills up all the available space */
     height: 100%; 
      min-height: 100vh; /* Ensures the container always covers the full viewport height  */
 }
@@ -15,7 +16,7 @@
 .About {
     display: flex;
     flex-direction: column;
-     flex-grow: 1;                                     /* Makes sure this container fills up all the available space */
+     flex-grow: 1;   /* Makes sure container fills up all the available space */
     height: 100%; 
      min-height: 100vh; /* Ensures the container always covers the full viewport height  */
  }  
@@ -23,23 +24,25 @@
 .Skills {
     display: flex;
     flex-direction: column;
-     flex-grow: 1;                                     /* Makes sure this container fills up all the available space */
+     flex-grow: 1; /* Makes sure container fills up all the available space */
     height: 100%; 
      min-height: 100vh; /* Ensures the container always covers the full viewport height  */
+     
 }
 
 .Projects {
     display: flex;
     flex-direction: column;
-     flex-grow: 1;                                     /* Makes sure this container fills up all the available space */
+     flex-grow: 1;  /* Makes sure container fills up all the available space */
     height: 100%; 
      min-height: 100vh; /* Ensures the container always covers the full viewport height  */
+     
 }
 
 .Contact {
     display: flex;
     flex-direction: column;
-     flex-grow: 1;                                     /* Makes sure this container fills up all the available space */
+     flex-grow: 1;  /* Makes sure container fills up all the available space */
     height: 100%; 
      min-height: 100vh; /* Ensures the container always covers the full viewport height  */
 }

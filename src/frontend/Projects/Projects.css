@@ -21,6 +21,10 @@ div.Projects_title h1 {
     padding-top: 0px;
     display: flex;
     justify-content:center;
-    
+    /* May need to specify amt of cards on page */
+    flex-wrap: wrap; /* Wrap cards to the next line if needed */ 
+    gap: 20px; /* Add space between cards */
+    margin: 0 auto;
+    padding: 1rem;
 
 }
