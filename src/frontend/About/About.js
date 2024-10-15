@@ -1,5 +1,4 @@
 import './About.css';
-import React, { useEffect, useState } from 'react';
 //add some animations to the background (rainbow like intro?)
 
 

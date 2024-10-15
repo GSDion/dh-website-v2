@@ -1,72 +1,97 @@
+/* Footer Styles */
 .Footer {
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(190, 185, 185);
-    margin-top: 0px;
-    height:120px;
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(190, 185, 185);
+  padding: 1rem 2%; /* Scalable padding */
+  width: 100%;  /* Full width of the page */
+  position: relative;
+  min-height: 10vh;  /* Ensure the footer height adapts */
+  box-sizing: border-box;  /* Include padding in width/height */
 }
 
+/* Copyright Section */
 .Footer_copyright p {
-    color:rgb(40, 44, 52);
-    display:flex;
-    align-items:flex-end;
-    margin:30px;
+  color: rgb(40, 44, 52);
+  margin: 0;
+  font-size: 1rem; /* Consistent text size */
 }
 
+/* Navigation Links */
 .Footer_nav_links {
-    display: flex;
-    justify-content: flex-end;
-    color:rgb(40, 44, 52);
-    text-decoration: none;
-    font-size: 16px;
-  }
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Wrap links when needed */
+  gap: 1rem;  /* Scalable spacing between links */
   
 
- div.Footer_nav_links a:visited {
-    color:rgb(40, 44, 52);
-  }
-
-  div.Footer_nav_links a:link {
-    color:rgb(40, 44, 52);
-    text-decoration: none;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
-  div.Footer_nav_links  a:hover {
-    color:rgb(40, 44, 52);
-  }
-
-/* Social Media icons */
-.Footer_social_links a {
-    margin:10px;
 }
+
+.Footer_nav_links a {
+  color: rgb(40, 44, 52);
+  text-decoration: none;
+  font-size: 1rem; /* Adjusts with the root font size */
+}
+
+/* Social Media Links Container */
+.Footer_social_links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem; /* Spacing between the icons */
+}
+
+/* Individual Social Media Icons */
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
+  display: flex;  /* Enables Flexbox on the icon */
+  justify-content: center;  /* Horizontal centering */
+  align-items: center;  /* Vertical centering */
+  font-size: 1.5rem;  /* Adjust icon size */
+  width: 3rem;
+  height: 3rem;
+  margin: 0.5rem;
+  border-radius: 50%;
+  background: rgb(40, 44, 52);  /* Background color for the icons */
+  color: rgb(190, 185, 185);  /* Icon color */
+  text-align: center;
+  text-decoration: none;
+}
+
+
+/* Hover Effect */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Ensure Footer Stays at Bottom */
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  flex: 1;
+}
+
+/* Footer positioned at the bottom */
+.Footer {
+  margin-top: auto;
+}
+
+/* Responsive Styles for Mobile */
+@media (max-width: 768px) {
+  .Footer {
+      flex-direction: column;
+      text-align: center;
+      gap: 1rem; /* Scalable spacing between sections */
   }
 
-  .fa:hover {
-      opacity: 0.7;
+  .fa {
+      font-size: 1.25rem; /* Adjust icon size for mobile */
+      width: 2rem;
+      height: 2rem;
   }
-  
-  .fa-linkedin {
-    background: rgb(40, 44, 52);
-    color: rgb(190, 185, 185);
-  }
-
-  .fa-github {
-    background: rgb(40, 44, 52);
-    color: rgb(190, 185, 185);
-  }
-
-  .fa-yahoo {
-    background: rgb(40, 44, 52);
-    color: rgb(190, 185, 185);
-  }
+}

@@ -1,49 +1,59 @@
-.About {
+.About { 
     height: 100%;
     background-color: rgb(190, 185, 185);
 }
 
+/* Title Styles */
 .About_title {
     text-align: center;
     padding-top: 4rem;
- 
 }
 div.About_title h1 {
     font-size: 2.8rem;
-    color:rgb(40, 44, 52);
+    color: rgb(40, 44, 52);
 }
 
+/* Container Styles */
 .About_container {
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: center;
-    /* margin-left: 250px;
-    margin-right: 300px;
-    margin-top:100px; */
-    margin-left:20%;
-    margin-right:20%;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-top: 2%;
 }
 .About_paragraph {
     color: rgb(40, 44, 52);
     font-size: 1.2rem;
-    text-wrap: wrap;
+    word-wrap: break-word; /* Ensures text doesn't overflow */
 }
+
+/* Photo Styling */
 .About_photo {
     display: flex;
-    margin-top:2%;
-    /* Centers image vertically */
-    padding: 2rem; /* Adds padding around the image */
+    margin-top: 2%;
+    padding: 2rem;
 }
 
 div.About_photo img {
-    height:12rem;
-    width:12rem;
+    height: 12rem;
+    width: 12rem;
     border-radius: 50%;
     border-style: double;
-    border-color:rgb(40, 44, 52);
-    
-   
-    
+    border-color: rgb(40, 44, 52);
 }
 
+@media (max-width: 768px) {
+    .About_container {
+        padding: 0.5rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .About_container div:first-child {
+        order: 2;
+      }
+    div.About_title h1 {
+        font-size: 2rem;
+    }
+}

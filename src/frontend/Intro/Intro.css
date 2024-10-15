@@ -6,6 +6,10 @@
     
 }
 
+.Intro_br {
+  display:none;
+}
+
 .Intro_content {
     margin-left: 200px;
     margin-top: 75px;
@@ -53,3 +57,38 @@ div.Intro_content button {
     margin-left:15px;
 }
 
+@media (max-width: 768px) { 
+  .Intro {
+    height:60%;
+  }
+
+  .Intro_content {
+    display:grid;
+    align-items: center;
+    margin-left: 10px;
+  }
+
+  div.Intro_content h1 {
+    font-size: 7vh;
+    text-align: center;
+ 
+}
+
+  div.Intro_content p{
+    margin-top:30px;
+    
+  }
+
+  .Intro_br {
+    display:static;
+  }
+
+  div.Intro_content button { 
+    margin: 30px 100px 100px 100px;/* top right bottom left */
+  }
+
+
+  
+
+
+}
