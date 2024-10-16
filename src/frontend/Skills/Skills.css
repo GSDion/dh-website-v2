@@ -21,3 +21,10 @@ div.Skills_title h1 {
     flex-wrap: wrap;
     flex-grow:1;
 }
+
+@media (max-width: 768px) {
+    .Skills_list {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

@@ -3,7 +3,7 @@ import './Intro.css';
 
 function Intro() {
   const handleResumeClick = () => {
-    window.open(require('../Files/DH_Resume_v5.pdf'), '_blank');
+    window.open(require('../Files/DH_Resume_v7.pdf'), '_blank');
   };
     return (
       

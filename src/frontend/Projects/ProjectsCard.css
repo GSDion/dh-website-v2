@@ -48,7 +48,7 @@
   }
 
   .Projectscard-image {
-    width: 100%; /* Scale the image with the card */
+    width: 85%; /* Scale the image with the card */
     height: auto;
   }
 }
