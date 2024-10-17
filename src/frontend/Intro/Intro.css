@@ -57,15 +57,15 @@ div.Intro_content button {
     margin-left:15px;
 }
 
-@media (max-width: 768px) { 
-  .Intro {
-    height:60%;
-  }
+/* Phones */
+@media (max-width: 767px) { 
+  
 
   .Intro_content {
     display:grid;
     align-items: center;
     margin-left: 10px;
+    text-align: center;
   }
 
   div.Intro_content h1 {
@@ -88,7 +88,33 @@ div.Intro_content button {
   }
 
 
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1440px) {
+ 
+
+  div.Intro_content h1 {
+    font-size: 8vh;
+    text-align: center;
+    
+}
+
+  .Intro_content {
+    display:grid;
+    align-items: center;
+    text-align: center;
+    margin-left:10px;
+    
   
+  }
 
+  .Intro_br {
+    display:static;
+  }
 
+  div.Intro_content button { 
+    margin: 30px 150px 150px 150px;/* top right bottom left */
+  }
+  
 }

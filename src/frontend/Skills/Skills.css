@@ -17,14 +17,20 @@ div.Skills_title h1 {
 .Skills_list {
     padding-top: 0px;
     display: flex;
-    justify-content:left;
+    justify-content:center;
     flex-wrap: wrap;
     flex-grow:1;
+    flex-shrink: 1
 }
 
 @media (max-width: 768px) {
     .Skills_list {
         display:grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(auto-fill, minmax(min(200px,100%), 1fr, 1fr));
+        
+    }
+
+    .Skills {
+        width: 100%;
     }
 }

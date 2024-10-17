@@ -5,10 +5,10 @@
   justify-content: space-between;
   align-items: center;
   background-color: rgb(190, 185, 185);
-  padding: 1rem 2%; /* Scalable padding */
-  width: 100%;  /* Full width of the page */
+  padding: 1rem 2%; 
+  width: 100%;  
   position: relative;
-  min-height: 10vh;  /* Ensure the footer height adapts */
+  min-height: 10vh;  
   box-sizing: border-box;  /* Include padding in width/height */
 }
 
@@ -16,7 +16,7 @@
 .Footer_copyright p {
   color: rgb(40, 44, 52);
   margin: 0;
-  font-size: 1rem; /* Consistent text size */
+  font-size: 1rem; 
 }
 
 /* Navigation Links */
@@ -24,7 +24,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap; /* Wrap links when needed */
-  gap: 1rem;  /* Scalable spacing between links */
+  gap: 1rem;  
   
 
 }
@@ -32,10 +32,9 @@
 .Footer_nav_links a {
   color: rgb(40, 44, 52);
   text-decoration: none;
-  font-size: 1rem; /* Adjusts with the root font size */
+  font-size: 1rem; 
 }
 
-/* Social Media Links Container */
 .Footer_social_links {
   display: flex;
   justify-content: center;
@@ -44,22 +43,22 @@
 
 /* Individual Social Media Icons */
 .fa {
-  display: flex;  /* Enables Flexbox on the icon */
+  display: flex;  
   justify-content: center;  /* Horizontal centering */
   align-items: center;  /* Vertical centering */
-  font-size: 1.5rem;  /* Adjust icon size */
+  font-size: 1.5rem;  
   width: 3rem;
   height: 3rem;
   margin: 0.5rem;
   border-radius: 50%;
   background: rgb(40, 44, 52);  /* Background color for the icons */
-  color: rgb(190, 185, 185);  /* Icon color */
+  color: rgb(190, 185, 185);  /* Actual Icon color */
   text-align: center;
   text-decoration: none;
 }
 
 
-/* Hover Effect */
+
 .fa:hover {
   opacity: 0.7;
 }

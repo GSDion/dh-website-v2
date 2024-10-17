@@ -1,6 +1,33 @@
 import './Contact.css';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 
 function Contact() {
+  const form = useRef(); // Reference to the form element
+
+  const sendEmail = (event) => {
+    event.preventDefault(); // Prevent page reload on form submission
+
+    emailjs
+      .sendForm(
+        'service_t0i6qb9', // Replace with your EmailJS Service ID
+        'contact_form',    // Replace with your EmailJS Template ID
+        form.current,
+        '3hzWCccxEfEswFzVo'  // Replace with your EmailJS Public Key
+      )
+      .then(
+        (result) => {
+          console.log('SUCCESS!', result.text);
+          alert('Message sent successfully!');
+        },
+        (error) => {
+          console.log('FAILED...', error);
+          alert('Message failed to send.');
+        }
+      );
+  };
+
     return (
       <div className = 'Contact'>
       
@@ -9,8 +36,8 @@ function Contact() {
         </div>
 
         <p className='Contact_email'>Email: humphreydion@yahoo.com</p>
-
-        <div className='Contact_form_container'>
+        <form ref={form} onSubmit={sendEmail}>
+          <div className='Contact_form_container'>
 
           <div className='Contact_form_container_left'>
             <label for="name">Full Name</label>
@@ -21,21 +48,19 @@ function Contact() {
 
             <label for="email">Email</label>
             <input type="text" id="email" name="email" placeholder="*Your email..." required ></input>
-
-
-            
           </div>
-          
+
 
           <div className='Contact_form_container_right'>
-         
-
             <label for="subject">Subject</label>
             <textarea id="subject" name="subject" placeholder="*Write something..." required></textarea>
           </div>
 
           <input type="submit" value="Submit"></input>
-        </div>
+          </div>
+        </form>
+                  
+      
 
       </div>
     );
