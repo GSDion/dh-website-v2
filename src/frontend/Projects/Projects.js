@@ -18,13 +18,13 @@ function Projects() {
           />
 
           {/* <ProjectsCard 
-            ProjectsCardImage={require('../Pictures/DCC_homepage_logged_out.png')} 
+            ProjectsCardImage={require('../Pictures/...')} 
             ProjectsCardTitle='Library Management System'
             ProjectsCardAttribtutes='Java, Java Swing, MySQL, Git'
           /> */}
 
           <ProjectsCard
-            ProjectsCardImage={require('../Pictures/DCC_homepage_logged_out.png')} 
+            ProjectsCardImage={require('../Pictures/Bookit_mods_homepage_02.png')} 
             ProjectsCardTitle='Bookit - E-Cinema Booking Site'
             ProjectsCardAttribtutes='React, CSS, MySQL, Java SpringBoot, Git, Agile, Scrum'
           />
