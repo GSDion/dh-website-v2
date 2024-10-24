@@ -17,7 +17,7 @@ function Intro() {
          
       
 
-          <p>I am a Software Engineer that can manage both the front and back end. </p>
+          <p>I am an aspiring Software Engineer. </p>
           <p>I am adept at Java, Python, Javascript, CSS, HTML, React, Node.js, and more. </p>
           
           <button onClick={handleResumeClick}>
