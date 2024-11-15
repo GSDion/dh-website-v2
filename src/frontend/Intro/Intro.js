@@ -11,9 +11,8 @@ function Intro() {
         
         <div className = 'Intro_content'>
           <h1>Hi!</h1>
-        <div className="Intro_repeating_text">
           <h1>My name is <br className="Intro_br"></br>Dion.</h1>
-        </div>
+      
          
       
 

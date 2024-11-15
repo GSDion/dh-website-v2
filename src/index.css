@@ -10,11 +10,10 @@ html, body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-color: rgb(37, 23, 46); */
-  background-color: rgb(40, 44, 52);
-  /* border: 5px solid rgb(190, 185, 185);  */
-  border-top: 5px solid rgb(190, 185, 185); 
-  border-right: 5px solid rgb(190, 185, 185); 
-  border-left: 5px solid rgb(190, 185, 185);
+  background-color: rgb(1, 1, 1);
+  /* padding-left: 5rem;
+  padding-right: 5rem;
+   */
 }
 
 .page-content {
