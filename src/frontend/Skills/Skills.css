@@ -31,12 +31,13 @@ div.Skills_title h1 {
     
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .Skills_list {
         display:grid;
-        /* grid-template-columns: repeat(auto-fill, minmax(min(200px,100%)2, 1fr)); */
-        grid-template-columns: repeat(2, 1fr);
-        padding:1em;
+        grid-template-columns: repeat(2, minmax(175px, 1fr));
+        /* grid-template-columns: repeat(2, 1fr); */
+        padding-left:0em;
+        align-items: center; 
         
         
         
@@ -50,10 +51,21 @@ div.Skills_title h1 {
         padding-top: 40px;
         /* padding:0rem; */
         /* padding:1em; */
-        padding-left:1em;
+        padding-left:0em;
     }
 
     .Skills {
         /* width: 100%; */
     }
 }
+    @media (min-width: 768px) and (max-width: 1440px) { 
+        .Skills_list {
+            padding-left:0rem;
+            margin-left: 10%;
+            margin-right:10%;
+        }
+
+        .Skills_title {
+           
+        }
+    }

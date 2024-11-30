@@ -47,7 +47,7 @@ div.About_photo img {
     border-color: rgb(40, 44, 52);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
     .About {
         padding:0rem;
@@ -79,4 +79,11 @@ div.About_photo img {
         padding-left:1em;
         margin:0rem;
     }
+
+    @media (min-width: 768px) and (max-width: 1440px) {
+        .About_container {
+            flex-direction: row;
+        }
+    }
 }
+

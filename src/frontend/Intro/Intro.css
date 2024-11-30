@@ -1,6 +1,7 @@
 .Intro {
   position: relative;
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height:100%;
   background-image: url('../Pictures/square.svg'); 
   background-size: 32px 32px;
   background-repeat: repeat;
@@ -8,6 +9,7 @@
   overflow: hidden; /* Ensures the gradient won’t extend outside */
   border-bottom: 0.2px solid #e5e7eb;
 }
+
 
 .Intro::before {
   content: '';
@@ -141,6 +143,10 @@ div.Intro_content button:hover {
 
 /* Tablets */
 @media (min-width: 768px) and (max-width: 1440px) {
+
+  .Intro {
+    min-height:100%;
+  }
  
 
   div.Intro_content h1 {
@@ -154,6 +160,7 @@ div.Intro_content button:hover {
     align-items: center;
     text-align: center;
     margin-left:10px;
+    margin-top: 100px;
     
   
   }
