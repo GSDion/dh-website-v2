@@ -16,6 +16,7 @@ function Header() {
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
+        <a href={require('./Files/DH_Resume_v7.pdf')} target='blank' >Resume</a>
       </div>
     </div>
   );

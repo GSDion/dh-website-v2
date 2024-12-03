@@ -36,9 +36,9 @@ function About() {
             
           </div>
 
-          <div className = 'About_photo'> 
+          {/* <div className = 'About_photo'> 
             <img src={require('../Pictures/DH_portfolio.jpg')} alt="DH_portfolio" />
-          </div>
+          </div> */}
       </div>
         
       </div>

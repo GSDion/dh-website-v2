@@ -7,26 +7,22 @@ html, body {
   /* height: 100%; */
   display: flex;
   flex-direction: column;
-
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: rgb(37, 23, 46); */
-  background-color: rgb(1, 1, 1);
-  /* padding-left: 5rem;
-  padding-right: 5rem;
-   */
+  background-color: rgb(255, 255, 255);
+  
 }
-
+/* 
 .page-content {
   height: var(--custom-height);
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
-}
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -35,30 +31,29 @@ code {
 
 
 /* Responsive Styles for Mobile */
+
+/* Phones */
 @media (max-width: 768px) {
   html, body {
-    /* margin: 0;
-    height: 100vh; */
     display: flex;
     flex-direction: column;
     margin: 0;
-padding: 0;
-height: 100%;
-width: 100%;
+    padding: 0;
+    height: 100%;
+    width: 100%;
   }
 /* Tablets */
 @media (min-width: 768px) and (max-width: 1440px) {
-
   html, body {
     /* margin: 0;
     height: 100vh; */
     display: flex;
     flex-direction: column;
     margin: 0;
-padding: 0;
-height: 100%;
-width: 100%;
+    padding: 0;
+    height: 100%;
+    width: 100%;
   }
 }
-  
+
 }
