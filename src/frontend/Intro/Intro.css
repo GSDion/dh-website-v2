@@ -1,32 +1,11 @@
 .Intro {
-  /* min-height: 100vh; */
-  height:100%;
-  position: relative; 
-  margin-top:2%;
+  min-height: 100vh;
+  /* height:100%; */
+  position:relative; 
+ 
 
 }
 
-/*
-.Intro::before {
-  content: '';
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  width: 650px; 
-  height: 300px;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-  /* Two rainbow radial gradients with a smaller inner circle and lighter outer circle */
-  /*
-  background: 
-    radial-gradient(circle at center, rgba(239, 83, 80, 0.6), rgba(244, 143, 177, 0.6), rgba(126, 87, 194, 0.6), rgba(33, 150, 243, 0.6), rgba(67, 160, 71, 0.6), rgba(255, 235, 59, 0.6), rgba(255, 87, 34, 0.6)),
-    radial-gradient(circle at center, rgba(239, 83, 80, 0.3), rgba(244, 143, 177, 0.3), rgba(126, 87, 194, 0.3), rgba(33, 150, 243, 0.3), rgba(67, 160, 71, 0.3), rgba(255, 235, 59, 0.3), rgba(255, 87, 34, 0.3));
-  background-size: 100%;
-  opacity: 0.7; 
-  pointer-events: none;
-  filter: blur(100px);
-}
-*/
 
 .Intro_br {
   display:none;
@@ -38,6 +17,7 @@
   align-items:center;
   margin-top: 5%;
   letter-spacing: -1px;
+  justify-content: space-between; 
          
 }
 
@@ -72,15 +52,9 @@ div.Intro_content h1 {
   display: inline; 
 }
 
-/* .image-container {
-  display: inline-block; 
 
-/*
-.image-container img {
-  display: block; /* Prevents extra space below the image caused by inline-block behavior 
-  max-width: 100%; /* Ensures the image scales responsively 
-  height: auto; 
-*/
+
+
 div.Intro_content p{
     color:rgb(255, 255, 255);
     font-size: 1.25rem;
@@ -121,9 +95,13 @@ div.Intro_content button:hover {
   border-color: #ccc; /* But Lighten border on hover */
 }
 
+
 /* Phones */
 @media (max-width: 767px) { 
+
   .Intro_content {
+   padding-bottom:170px;
+    margin: auto;
     align-items: center;
     text-align: center;
   }
@@ -131,19 +109,30 @@ div.Intro_content button:hover {
   div.Intro_content h1 {
     font-size: 7vh;
     text-align: center;
+   
+    
 }
 
-  div.Intro_content p{
-    margin-top:30px;
-  }
-
-  .image-container img {
-    display: block; /* Prevents extra space below the image caused by inline-block behavior */
-    max-width: 100%; /* Ensures the image scales responsively  */
-    height: auto; 
+.image-container img {
+  display: block; /* Prevents extra space below the image caused by inline-block behavior */
+  max-width: 100%; /* Ensures the image scales responsively  */
+  height: auto; 
+  margin-top:100px;
   
+
 }
+.image-container {
+ 
+  position: absolute;
+  bottom: 0; /* Stick to the bottom of the Intro section */
 }
+ 
+}
+    
+    
+  
+
+
 /* Tablets */
 @media (min-width: 768px) and (max-width: 1440px) {
 
@@ -156,13 +145,5 @@ div.Intro_content button:hover {
     font-size: 8vh;
     text-align: center;
 }
-
-  .Intro_content {
-    display:grid;
-    align-items: center;
-    text-align: center;
-    margin-left:10px;
-    margin-top: 100px;
-  }
   
 }

@@ -3,19 +3,19 @@
 }
 
 html, body {
-  margin: 0;
-  /* height: 100%; */
+ margin: 0;
+  height: 100%; 
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
+  
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(255, 255, 255);
-  
 }
-/* 
+/*
 .page-content {
   height: var(--custom-height);
   display: flex;
@@ -39,7 +39,7 @@ code {
     flex-direction: column;
     margin: 0;
     padding: 0;
-    height: 100%;
+    /* height: 100%; */
     width: 100%;
   }
 /* Tablets */

@@ -26,7 +26,7 @@ function Intro() {
 
           <div class="image-container">
             {/* <div class="square"></div> */}
-            <img src={require('../Pictures/istockphoto-computer_typing.jpg')}  alt="Person" />
+            <img src={require('../Pictures/computer_typing.png')}  alt="Person" />
           </div>
 
         </div>
