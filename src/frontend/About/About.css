@@ -33,19 +33,6 @@ div.About_title h1 {
     word-wrap: break-word; /* Ensures text doesn't overflow */
 }
 
-.About_photo {
-    display: flex;
-    margin-top: 2%;
-    padding: 2rem;
-}
-
-div.About_photo img {
-    height: 12rem;
-    width: 12rem;
-    border-radius: 50%;
-    border-style: double;
-    border-color: rgb(40, 44, 52);
-}
 
 @media (max-width: 767px) {
 
@@ -66,14 +53,6 @@ div.About_photo img {
         
     }
 
-    .About_container div:first-child {
-        order: 2;
-    }
-
-    div.About_title h1 {
-        
-       
-    }
     .About_title {
         padding-top: 40px;
         padding-left:1em;
@@ -83,7 +62,14 @@ div.About_photo img {
     @media (min-width: 768px) and (max-width: 1440px) {
         .About_container {
             flex-direction: row;
+            margin-bottom: 0;
+            max-height: 50%;
         }
+
+        .About_paragraph {
+           font-size: 30px;
+        }
+        
     }
 }
 

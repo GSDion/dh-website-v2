@@ -1,36 +1,39 @@
 
 import './Intro.css';
+import Image from 'react-bootstrap/Image';
+import { Container, Row, Col} from 'react-bootstrap'
+
+
 
 function Intro() {
-  // const handleResumeClick = () => {
-  //   window.open(require('../Files/DH_Resume_v7.pdf'), '_blank');
-  // };
     return (
-      
-      <div className = 'Intro'>
-        
-        <div className = 'Intro_content'>
-          <h1>Hello! I'm <span className='rainbow'>Dion.</span></h1>
-          {/* <h1>My name is <br className="Intro_br"></br>Dion.</h1> */}
-          <h1>An Aspiring Software Engineer.</h1>
-      
-         
-      
 
-          {/* <p>I am an aspiring Software Engineer. </p>
-          <p>I am adept at Java, Python, Javascript, CSS, HTML, React, Node.js, and more. </p> */}
+      <div className="Intro">
+      <Container className="Intro_content">
+
+        <Row className="d-flex justify-content-center align-items-center flex-column">
           
-          {/* <button onClick={handleResumeClick}>
-            Resume
-          </button> */}
+          <Col xs={12} className="text-center custom-col-intro">
+            <h1>
+              Hello! I'm <span className="rainbow">Dion.</span>
+            </h1>
+            <h1>An Aspiring Software Engineer.</h1>
+          </Col>
 
-          <div class="image-container">
-            {/* <div class="square"></div> */}
-            <img src={require('../Pictures/computer_typing.png')}  alt="Person" />
-          </div>
+          {/* <Col xs={12} className="">
+            <div className="image-container">
+              <img
+                src={require('../Pictures/computer_typing.png')}
+                alt="computer"
+                className="intro-image align-self-end"
+              />
+            </div>
+          </Col> */}
 
-        </div>
-      </div>
+        </Row>
+
+      </Container>
+    </div>
     );
   }
 

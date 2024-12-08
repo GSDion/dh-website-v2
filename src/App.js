@@ -7,6 +7,7 @@ import Projects from './frontend/Projects/Projects';
 import Intro from './frontend/Intro/Intro';
 import Contact from './frontend/Contact/Contact'
 import Homepage from './frontend/Homepage'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

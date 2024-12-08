@@ -1,24 +1,22 @@
 .Intro {
   min-height: 100vh;
-  /* height:100%; */
-  position:relative; 
- 
-
 }
-
-
+/* 
 .Intro_br {
   display:none;
-}
+} */
 
 .Intro_content {
-   display:flex;
-   flex-direction: column;
-  align-items:center;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  height: 100vh; 
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
   margin-top: 5%;
   letter-spacing: -1px;
-  justify-content: space-between; 
-         
+  /* position:relative; */
+   /* Important for absolute positioning of image. Have to fix this because makes header nav on mobile too transparent*/
 }
 
 div.Intro_content h1 {
@@ -29,8 +27,6 @@ div.Intro_content h1 {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     margin:0px;
-    
- 
 }
 
 /* Name */
@@ -52,98 +48,50 @@ div.Intro_content h1 {
   display: inline; 
 }
 
-
-
-
-div.Intro_content p{
-    color:rgb(255, 255, 255);
-    font-size: 1.25rem;
-    margin-left:15px;
-    line-height: 1.4; /* Reduce space between lines of text */
-    letter-spacing: -0.5px; /* Bring letters closer together */
-    margin: 5px; /* Reduce vertical space between paragraphs */
-}
-
-div.Intro_content button {
-  background-color: black; 
-  color: rgb(255, 255, 255); 
-  padding: 10px 25px;
-  font-size: 1rem;
-  margin-top: 5px;
-  border: 2px solid silver;
+.image-container {
+  position: absolute; /* Anchors image to the bottom, but it's not in the middle */
+  bottom: 0; /* Sticks the container to the very bottom */  
+  left: 50%; /* Centers the container horizontally */
+  transform: translateX(-50%); /* Corrects offset caused by absolute positioning */
   display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 10px; 
-  cursor: pointer; 
-  transition: all 0.3s ease; 
-  background-clip: padding-box; /* Prevents background from leaking under the border */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-/* Placeholder for photo (paper icon) */
-div.Intro_content button::before {
-  content: ''; /* Placeholder for image */
-  width: 20px; 
-  height: 20px;
-  background-color: gray; 
-  border-radius: 50%; 
+.custom-col-intro{ 
+  margin-top:2.5em !important;
 }
-
-
-div.Intro_content button:hover {
-  background-color: #333; /* Darken background on hover */
-  border-color: #ccc; /* But Lighten border on hover */
-}
-
 
 /* Phones */
 @media (max-width: 767px) { 
 
   .Intro_content {
-   padding-bottom:170px;
-    margin: auto;
+    margin-top:12%;
     align-items: center;
     text-align: center;
   }
 
   div.Intro_content h1 {
     font-size: 7vh;
-    text-align: center;
-   
-    
-}
+    text-align: center; 
+  }
 
-.image-container img {
-  display: block; /* Prevents extra space below the image caused by inline-block behavior */
-  max-width: 100%; /* Ensures the image scales responsively  */
-  height: auto; 
-  margin-top:100px;
-  
-
-}
-.image-container {
- 
-  position: absolute;
-  bottom: 0; /* Stick to the bottom of the Intro section */
-}
- 
+  .image-container img {
+    max-width: 200%; /* Make sure the image scales responsively  */
+    /* height: auto;  */
+  }
 }
     
-    
-  
-
-
 /* Tablets */
 @media (min-width: 768px) and (max-width: 1440px) {
 
   .Intro {
     min-height:100%;
   }
- 
 
   div.Intro_content h1 {
     font-size: 8vh;
     text-align: center;
-}
-  
+  }
+
 }
