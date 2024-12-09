@@ -7,7 +7,7 @@ const scrollToTop = () => {
 
 function Header() {
   return (
-  <Navbar  className="bg-body-tertiary fixed-top navbar-expand-lg custom-nav"expand="lg">
+  <Navbar  className="bg-body-tertiary fixed-top navbar-expand-lg z-5 custom-nav"expand="lg">
     <Container>
       <Navbar.Brand>
           <span onClick={scrollToTop} style={{ cursor: 'pointer' }}>D.H.</span>

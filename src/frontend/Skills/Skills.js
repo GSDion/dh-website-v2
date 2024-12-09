@@ -1,7 +1,7 @@
 
 import './Skills.css';
 import SkillsCard from './SkillsCard';
-
+import { faDocker, faReact, faJs, faCss3Alt, faGithub, faPython, faJava, faHtml5, faAws, faGoogle} from '@fortawesome/free-brands-svg-icons';
 
 function Skills() {
     return (
@@ -11,66 +11,80 @@ function Skills() {
        <h1>Skills</h1>
       </div>
 
-      <div className='Skills_list'>
+      {/* <div className='Skills_list'> */}
+      <div className="d-flex flex-wrap justify-content-start z-1 Skills_list">
           <SkillsCard
-            SkillsCardImage={require('../Pictures/java_logo.webp')} 
+            SkillsCardImage={faJava} 
             SkillsCardTitle="Java"
+            color="#f0950e"
+
            />
 
           <SkillsCard
-            SkillsCardImage={require('../Pictures/python_logo.webp')} 
+            SkillsCardImage={faPython} 
             SkillsCardTitle="Python"
+            color="3c73a2"
            />
 
           <SkillsCard
-            SkillsCardImage={require('../Pictures/javascript_logo.webp')} 
-            SkillsCardTitle="JavaScript"
+            SkillsCardImage={faJs} 
+            SkillsCardTitle="Java Script"
+            color="#ffdf2b"
            />
 
 
           <SkillsCard
-            SkillsCardImage={require('../Pictures/html_logo.png')} 
+            SkillsCardImage={faHtml5} 
             SkillsCardTitle="HTML"
+            color="#f16a30"
            />
 
           <SkillsCard
-            SkillsCardImage={require('../Pictures/css_logo.png')} 
+            SkillsCardImage={faCss3Alt} 
             SkillsCardTitle="CSS"
+            color="#319ad1"
            />
 
           <SkillsCard
-            SkillsCardImage={require('../Pictures/react_logo.png')} 
+            SkillsCardImage={faReact} 
             SkillsCardTitle="React"
+            color="#08d9ff"
            />
 
           <SkillsCard
-            SkillsCardImage={require('../Pictures/google_cloud_logo.webp')} 
-            SkillsCardTitle="Google Cloud"
+            SkillsCardImage={faGoogle} 
+            SkillsCardTitle="Google Cloud Platform"
+            color="#fbbe0d"
            />
 
           <SkillsCard
-            SkillsCardImage={require('../Pictures/aws_logo.webp')} 
-            SkillsCardTitle="AWS (S3)"
+            SkillsCardImage={faAws} 
+            SkillsCardTitle="AWS"
+            color="#ff9c08"
            />
 
           <SkillsCard
-            SkillsCardImage={require('../Pictures/java_spring_boot_logo.png')}
-            SkillsCardTitle="Java SpringBoot"
+            SkillsCardImage={faJava}
+            SkillsCardTitle="Java Spring Boot"
+            color="#77bc1f"
            />
 
           <SkillsCard
-            SkillsCardImage={require('../Pictures/java_logo.webp')} 
+            SkillsCardImage={faJava} 
             SkillsCardTitle="Java Swing"
+            color="#f0950e"
            />
 
           <SkillsCard
-            SkillsCardImage={require('../Pictures/git_logo.png')} 
+            SkillsCardImage={faGithub} 
             SkillsCardTitle="Git"
+            color="#e94e31"
            />
 
           <SkillsCard
-            SkillsCardImage={require('../Pictures/docker_logo.jfif')} 
+            SkillsCardImage={faDocker} 
             SkillsCardTitle="Docker"
+            color="#1e63ee"
            />
 
       </div>

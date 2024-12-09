@@ -7,9 +7,8 @@
 .Skills_title {
     text-align: start;
     padding-top: 7rem;
-    /* Remove margin-left and margin-right */
-    padding-left: 9rem;
-    padding-right: 9rem;
+    margin-left: 10%;
+    margin-right: 10%; 
 }
 
 div.Skills_title h1 {
@@ -18,30 +17,25 @@ div.Skills_title h1 {
 }
 
 .Skills_list {
-
-    padding-left: 9rem;
-    padding-right:9rem;
-    display: flex;
+    margin-left: 10%;
+    margin-right: 10%; 
+    /* display: flex; */
     /* justify-content: left; */
-
-
-    flex-wrap: wrap;
+    /* flex-wrap: wrap;
     flex-grow: 1;
-    flex-shrink: 1;
+    flex-shrink: 1; */
+  
     
 }
 
 @media (max-width: 767px) {
-    .Skills_list {
+    /* .Skills_list {
         display:grid;
-        grid-template-columns: repeat(2, minmax(175px, 1fr));
+        grid-template-columns: repeat(2, minmax(175px, 1fr)); */
         /* grid-template-columns: repeat(2, 1fr); */
-        padding-left:0em;
-        align-items: center; 
-        
-        
-        
-    }
+        /* padding-left:0em;
+        align-items: center;  */
+    /* } */
 
     .Skills {
         padding:1em;
@@ -59,11 +53,11 @@ div.Skills_title h1 {
     }
 }
     @media (min-width: 768px) and (max-width: 1440px) { 
-        .Skills_list {
+        /* .Skills_list {
             padding-left:0rem;
             margin-left: 10%;
             margin-right:10%;
-        }
+        } */
 
         .Skills_title {
            
