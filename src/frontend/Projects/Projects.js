@@ -4,33 +4,72 @@ import ProjectsCard from './ProjectsCard';
 
 function Projects() {
     return (
-      <div className = 'Projects'>
-        
+      <div className=" mt-5 Projects">
+
         <div className='Projects_title'>
-          <h1>Projects</h1>
+           <h1>Projects</h1>
         </div>
 
-        <div className='Projects_list'>
-          <ProjectsCard 
-            ProjectsCardImage={require('../Pictures/DCC_homepage_logged_out.png')} 
-            ProjectsCardTitle='DCC - Movie Review Website'
-            ProjectsCardAttribtutes='React, CSS, MongoDB, Express.js, Node.js, Git'
-          />
-
+        <div className="row custom-projects-row">
+          {/* Tactical Emblem Hub */}
           {/* <ProjectsCard 
-            ProjectsCardImage={require('../Pictures/...')} 
-            ProjectsCardTitle='Library Management System'
-            ProjectsCardAttribtutes='Java, Java Swing, MySQL, Git'
-          /> */}
-
-          <ProjectsCard
             ProjectsCardImage={require('../Pictures/Bookit_mods_homepage_02.png')} 
-            ProjectsCardTitle='Bookit - E-Cinema Booking Site'
-            ProjectsCardAttribtutes='React, CSS, MySQL, Java SpringBoot, Git, Agile, Scrum'
-          />
+              ProjectsCardDate="Aug. 2024 – Present"
+              ProjectsCardCategory="Web"
+              ProjectsCardTitle="Bookit - E-Cinema Booking Site"
+              ProjectsCardDescription="An E-Cinema Booking website made by team of five using React.js, CSS, Java Spring Boot, and MySQL."
+              ProjectsCardTechStack="React, JavaScript, CSS, Java Spring Boot, MySQL, Agile, Scrum, Git"
+              ProjectsCardLink="#"
+            /> */}
 
+            {/* GoodReadsFilter */}
+          {/* <ProjectsCard 
+            ProjectsCardImage={require('../Pictures/Bookit_mods_homepage_02.png')} 
+              ProjectsCardDate="Sep. 2024 – 2024"
+              ProjectsCardCategory="Web"
+              ProjectsCardTitle="GoodReadsFilter"
+              ProjectsCardDescription=""
+              ProjectsCardTechStack="Python, Flask, Pandas, CSS, HTML, JavaScript, Git"
+              ProjectsCardLink="#"
+            /> */}
+
+            {/* StackTrack */}
+          <ProjectsCard 
+              ProjectsCardImage={require('../Pictures/Bookit_mods_homepage_02.png')} 
+              ProjectsCardDate="Sep. 2024 – Nov. 2024"
+              ProjectsCardCategory="Application"
+              ProjectsCardTitle="StackTrack - Library Management System"
+              ProjectsCardDescription="A Library Management System designed to streamline the process of managing library users and books.."
+              ProjectsCardTechStack="Java, Java Swing, MySQL, Git"
+              ProjectsCardLink="#"
+              id='edulink'
+            />
+
+            {/* BookIt */}
+            <ProjectsCard 
+             ProjectsCardImage={require('../Pictures/Bookit_mods_homepage_02.png')} 
+              ProjectsCardDate="Aug. 2023 – Dec. 2023"
+              ProjectsCardCategory="Web"
+              ProjectsCardTitle="Bookit - E-Cinema Booking Site"
+              ProjectsCardDescription="An E-Cinema Booking website made by team of five using React.js, CSS, Java Spring Boot, and MySQL."
+              ProjectsCardTechStack="React, JavaScript, CSS, Java Spring Boot, MySQL, Agile, Scrum, Git"
+              ProjectsCardLink="#"
+            />
+
+            {/* DCC*/}
+            <ProjectsCard 
+             ProjectsCardImage={require('../Pictures/DCC_homepage_logged_out.png')} 
+              ProjectsCardDate="April 2023 – May 2023"
+              ProjectsCardCategory="Web"
+              ProjectsCardTitle="DCC - Movie Review Website"
+              ProjectsCardDescription="A movie review website made by a team a three using the MERN stack."
+              ProjectsCardTechStack="React, JavaScript, CSS, MongoDB, Express.js, Node.js, Git"
+              ProjectsCardLink="#"
+            />
+
+        
         </div>
-      </div>
+    </div>
     );
 }  
   

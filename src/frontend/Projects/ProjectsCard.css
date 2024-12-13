@@ -1,5 +1,5 @@
 /* Card.css */
-
+/* OBSELETE */
 .ProjectsCard {
     width: 30rem;
     height: 25rem;
@@ -20,10 +20,8 @@
   .Projectscard-image {
     width:23rem;
     height: 15rem;
-    /* height: auto; */
     margin-top: 20px; /* Add space between top and image */
     border-radius: 8px;
-    /* mix-blend-mode:multiply; */
   }
   
   .Projectscard-title {
@@ -38,17 +36,55 @@
     color:rgb(190, 185, 185);
   }
 
-  /* For screens smaller than 768px */
-   /* TO DO: every component */
+ 
 @media (max-width: 768px) {
   .ProjectsCard {
-    width: 100%; /* Cards will take full width of the container */
-    height: auto; /* Allow the height to adjust to changes*/
-    margin: 10px; /* Adjust margin to avoid overflow on screen */
+    width: 100%; /* Cards take full width of the container */
+    height: auto; /* Height adjusts to changes*/
+    margin: 10px; 
   }
 
   .Projectscard-image {
-    width: 85%; /* Scale the image with the card */
+    width: 85%;
     height: auto;
   }
+}
+.custom-projects-card-body {
+  padding: 20px;
+  /* Need consisent shape for cards */
+  min-height: 20em; 
+  max-height: 22em; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  align-items: flex-start; 
+  overflow: hidden;
+  box-sizing: border-box; /* Padding doesn't add to the size */
+}
+
+.custom-projects-card-text {
+  flex-grow: 1; /* Push the description to take up available space */
+  margin-bottom: 10px; 
+  text-align: left; 
+}
+
+.custom-projects-card-title,
+.custom-projects-card-subtitle {
+  text-align: left; 
+}
+
+.custom-projects-card {
+  border-radius: 12px;
+  background-color: #fff; 
+  transition: transform 0.3s ease;
+}
+
+.custom-projects-card:hover {
+  transform: scale(1.02); /* Subtle zoom effect */
+}
+
+.custom-projects-card-img-top {
+  border-radius: 12px 12px 0 0;
+  height: 180px; /* Fixed image height */
+  object-fit: cover; /* Keep image contained */
 }

@@ -14,6 +14,7 @@
 div.Skills_title h1 {
     font-size: 2.8rem;
     color: rgb(39, 39, 42);
+    
 }
 
 .Skills_list {
@@ -29,37 +30,32 @@ div.Skills_title h1 {
 }
 
 @media (max-width: 767px) {
-    /* .Skills_list {
-        display:grid;
-        grid-template-columns: repeat(2, minmax(175px, 1fr)); */
-        /* grid-template-columns: repeat(2, 1fr); */
-        /* padding-left:0em;
-        align-items: center;  */
-    /* } */
+    .Skills_list {
+        padding-left:0rem;
+        margin-left: 0%;
+        margin-right:0%;
+    }
 
     .Skills {
         padding:1em;
     }
 
     .Skills_title {
-        padding-top: 40px;
-        /* padding:0rem; */
-        /* padding:1em; */
-        padding-left:0em;
-    }
-
-    .Skills {
-        /* width: 100%; */
+        padding-top: 40px;  
+        margin-left: 0%;
+        margin-right: 0%; 
     }
 }
     @media (min-width: 768px) and (max-width: 1440px) { 
-        /* .Skills_list {
+        .Skills_list {
             padding-left:0rem;
-            margin-left: 10%;
-            margin-right:10%;
-        } */
+            margin-left: 0%;
+            margin-right:0%;
+        }
 
         .Skills_title {
-           
+            padding-left:0rem;
+            margin-left: 0%;
+            margin-right:0%;
         }
     }
