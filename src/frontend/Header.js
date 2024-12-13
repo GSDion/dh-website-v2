@@ -15,10 +15,10 @@ function Header() {
       <NavbarToggle aria-controls="navbar-nav" />
         <NavbarCollapse id="navbar-nav">
           <Nav className="custom-nav-links-header ms-auto">
-                <Nav.Link href="#about">About</Nav.Link>
-                <Nav.Link href="#skills">Skills</Nav.Link>
-                <Nav.Link href="#projects">Projects</Nav.Link>
-                <Nav.Link href="#contact">Contact</Nav.Link>
+                <Nav.Link href="/#about">About</Nav.Link>
+                <Nav.Link href="/#skills">Skills</Nav.Link>
+                <Nav.Link href="/#projects">Projects</Nav.Link>
+                <Nav.Link href="/#contact">Contact</Nav.Link>
                 <Nav.Link 
                   href={require('./Files/DH_Resume_v7.pdf')} 
                   target="_blank"

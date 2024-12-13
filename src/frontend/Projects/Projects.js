@@ -35,36 +35,35 @@ function Projects() {
 
             {/* StackTrack */}
           <ProjectsCard 
-              ProjectsCardImage={require('../Pictures/Bookit_mods_homepage_02.png')} 
+              ProjectsCardImage="/Pictures/lms_admin_dashboard.png"
               ProjectsCardDate="Sep. 2024 – Nov. 2024"
               ProjectsCardCategory="Application"
               ProjectsCardTitle="StackTrack - Library Management System"
-              ProjectsCardDescription="A Library Management System designed to streamline the process of managing library users and books.."
+              ProjectsCardDescription="A Library Management System designed to streamline the process of managing library users and books."
               ProjectsCardTechStack="Java, Java Swing, MySQL, Git"
-              ProjectsCardLink="#"
-              id='edulink'
+              id='stacktrack'
             />
 
             {/* BookIt */}
             <ProjectsCard 
-             ProjectsCardImage={require('../Pictures/Bookit_mods_homepage_02.png')} 
+             ProjectsCardImage="/Pictures/Bookit_mods_homepage_02.png"
               ProjectsCardDate="Aug. 2023 – Dec. 2023"
               ProjectsCardCategory="Web"
               ProjectsCardTitle="Bookit - E-Cinema Booking Site"
               ProjectsCardDescription="An E-Cinema Booking website made by team of five using React.js, CSS, Java Spring Boot, and MySQL."
               ProjectsCardTechStack="React, JavaScript, CSS, Java Spring Boot, MySQL, Agile, Scrum, Git"
-              ProjectsCardLink="#"
+              id="bookit"
             />
 
             {/* DCC*/}
             <ProjectsCard 
-             ProjectsCardImage={require('../Pictures/DCC_homepage_logged_out.png')} 
+             ProjectsCardImage="Pictures/DCC_homepage_logged_out.png"
               ProjectsCardDate="April 2023 – May 2023"
               ProjectsCardCategory="Web"
               ProjectsCardTitle="DCC - Movie Review Website"
               ProjectsCardDescription="A movie review website made by a team a three using the MERN stack."
               ProjectsCardTechStack="React, JavaScript, CSS, MongoDB, Express.js, Node.js, Git"
-              ProjectsCardLink="#"
+              id="dcc"
             />
 
         

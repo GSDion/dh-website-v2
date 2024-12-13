@@ -2,7 +2,7 @@ import { useParams } from 'react-router-dom';
 import projects from './Projects.json'; 
 import Header from '../Header';
 import './ProjectPage.css'
-
+import { Carousel } from 'react-bootstrap'; 
 
 function ProjectPage() {
   const { id } = useParams(); // Get the dynamic 'id' from the route
@@ -22,14 +22,17 @@ function ProjectPage() {
 
         <div className="row mb-4">
           <div className="col-md-8">
-            {project.images.map((img, index) => (
-              <img
-                key={index}
-                src={img}
-                className="img-fluid mb-3"
-                alt={`${project.title} screenshot ${index + 1}`}
-              />
-            ))}
+          <Carousel>
+                {project.images.map((img, index) => (
+                  <Carousel.Item key={index}>
+                    <img
+                      src={img}
+                      className="d-block w-100 img-fluid"
+                      alt={`${project.title} screenshot ${index + 1}`}
+                    />
+                  </Carousel.Item>
+                ))}
+              </Carousel>
           </div>
           <div className="col-md-4">
             <h3>What Is It?</h3>

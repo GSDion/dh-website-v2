@@ -6,12 +6,13 @@ import Projects from './Projects/Projects';
 import Intro from './Intro/Intro';
 import Contact from './Contact/Contact'
 import Footer from "./Footer";
+import ScrollToHash from './ScrollToHash';
 
 function Homepage() {
     return (
       
       <div>
-        
+         <ScrollToHash />
         <div id = 'header'>
           <Header/>
         </div>
