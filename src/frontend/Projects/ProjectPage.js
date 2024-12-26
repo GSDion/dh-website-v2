@@ -3,6 +3,7 @@ import projects from './Projects.json';
 import Header from '../Header';
 import './ProjectPage.css'
 import { Carousel } from 'react-bootstrap'; 
+import Footer from '../Footer';
 
 function ProjectPage() {
   const { id } = useParams(); // Get the dynamic 'id' from the route
@@ -47,6 +48,7 @@ function ProjectPage() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
     </div>
   );
