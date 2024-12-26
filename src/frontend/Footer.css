@@ -6,6 +6,7 @@
 
 /* Individual Social Media Icons */
 .fa {
+  /* Use font size for icon size */
   color: rgb(39, 39, 42); /* Actual Icon color */
   text-decoration: none;
 }
@@ -14,70 +15,8 @@
   opacity: 0.7;
 }
 
-
-/* OBSELETE */
-/* Footer Styles */
-.Footer {
-  display: flex;
-  flex-wrap: wrap; /* Allows wrapping on smaller screens */
-  justify-content: space-between;
-  align-items: center;
-  background-color: rgb(190, 185, 185);
-  padding: 1rem 2%; 
-  width: 100%;  
-  position: relative;
-  min-height: 10vh;  
-  box-sizing: border-box;  /* Include padding in width/height */
-}
-
-/* Copyright Section */
-.Footer_copyright p {
-  color: rgb(40, 44, 52);
-  margin: 0;
-  font-size: 1rem; 
-}
-
-/* Navigation Links */
-.Footer_nav_links {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap; /* Wrap links when needed */
-  gap: 1rem;  
-  
-
-}
-
-.Footer_nav_links a {
-  color: rgb(40, 44, 52);
-  text-decoration: none;
-  font-size: 1rem; 
-}
-
-.Footer_social_links {
-  display: flex;
-  justify-content: center;
-  gap: 1rem; /* Spacing between the icons */
-}
-
-
-/* Footer positioned at the bottom */
-.Footer {
-  margin-top: auto;
-}
-
 /* Responsive Styles for Mobile */
 @media (max-width: 768px) {
-  .Footer {
-      flex-direction: column;
-      text-align: center;
-      gap: 1rem; /* Scalable spacing between sections */
-  }
-  .custom-nav-links-footer {
-    justify-content: center !important;
-  }
-  /* .fa {
-      font-size: 1.25rem; 
-      width: 2rem;
-      height: 2rem;
-  } */
+
+ 
 }
