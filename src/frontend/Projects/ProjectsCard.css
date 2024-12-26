@@ -1,78 +1,28 @@
-/* Card.css */
-/* OBSELETE */
-.ProjectsCard {
-    width: 30rem;
-    height: 25rem;
-    max-width: 100%;
-    border-radius: 8px;
-    
-    margin: 20px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ .custom-projects-card-body {
+    padding: 20px;
+    /* Need consisent shape for cards */
+    min-height: 20em; 
+    max-height: 22em; 
     display: flex;
     flex-direction: column;
- 
-    justify-content: flex-start;
-    align-items: center;
-    background-color: rgb(40, 44, 52);
+    justify-content: space-between; 
+    align-items: flex-start; 
+    overflow: hidden;
+    box-sizing: border-box; /* Padding doesn't add to the size */
+    
   }
   
-  .Projectscard-image {
-    width:23rem;
-    height: 15rem;
-    margin-top: 20px; /* Add space between top and image */
-    border-radius: 8px;
-  }
-  
-  .Projectscard-title {
-    margin-top: 50px; 
-    font-size: 1.2rem;
-    color:rgb(190, 185, 185);
-  }
-  
-  .Projectscard-attributes {
-    margin-top: 20px; 
-    font-size: 1.2rem;
-    color:rgb(190, 185, 185);
-  }
-
- 
-@media (max-width: 768px) {
-  .ProjectsCard {
-    width: 100%; /* Cards take full width of the container */
-    height: auto; /* Height adjusts to changes*/
-    margin: 10px; 
-  }
-
-  .Projectscard-image {
-    width: 85%;
-    height: auto;
-  }
-}
-.custom-projects-card-body {
-  padding: 20px;
-  /* Need consisent shape for cards */
-  min-height: 20em; 
-  max-height: 22em; 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; 
-  align-items: flex-start; 
-  overflow: hidden;
-  box-sizing: border-box; /* Padding doesn't add to the size */
-}
-
 .custom-projects-card-text {
-  flex-grow: 1; /* Push the description to take up available space */
-  margin-bottom: 10px; 
-  text-align: left; 
+    flex-grow: 1; /* Push the description to take up available space */
+    margin-bottom: 10px; 
+    text-align: left; 
 }
-
+  
 .custom-projects-card-title,
 .custom-projects-card-subtitle {
   text-align: left; 
 }
-
+  
 .custom-projects-card {
   border-radius: 12px;
   background-color: #fff; 
@@ -87,4 +37,8 @@
   border-radius: 12px 12px 0 0;
   height: 180px; /* Fixed image height */
   object-fit: cover; /* Keep image contained */
+}
+  
+@media (max-width: 768px) {
+
 }

@@ -27,10 +27,10 @@ function Contact() {
 
     emailjs
       .sendForm(
-        'service_t0i6qb9', // Replace with your EmailJS Service ID
-        'contact_form',    // Replace with your EmailJS Template ID
+        'service_t0i6qb9', // EmailJS Service ID
+        'contact_form',    // EmailJS Template ID
         form.current,
-        '3hzWCccxEfEswFzVo'  // Replace with your EmailJS Public Key
+        '3hzWCccxEfEswFzVo'  // EmailJS Public Key
       )
       .then(
         (result) => {
@@ -53,9 +53,44 @@ function Contact() {
         </div>
 
         <p className='Contact_email'>Email: humphreydion@yahoo.com</p>
+        <div className='card custom-contact-card'>
         <form ref={form} onSubmit={sendEmail}>
+            <div className='form row'>
+              <input type="hidden" name="contact_number" />
+              <div className='form-group col-md-6 mb-3'>
+                <label for="name">Full Name</label>
+                <input type="text" id="name" className='form-control' name="fullname" placeholder="*Your name..." required ></input>
+              </div>
+              <div className='form-group col-md-6 mb-3'>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" className='form-control'  placeholder="*Write something..." required></textarea>
+              </div>
+            </div>
+
+            <div className='form row'>
+              <div className='form-group col-md-6 mb-3'>
+                <label for="phone_number">Phone Number</label>
+                <input type="text" id="phone_number" className='form-control' name="phone_number" placeholder="Your Phone number..."></input>
+              </div>
+              <div className='form-group col-md-6 mb-3'>
+                <label for="email">Email</label>
+                <input type="text" id="email" className='form-control' name="email" placeholder="*Your email..." required ></input>
+              </div>
+              
+              <div className="form-group col-md-6">
+                <input 
+                  type="submit" 
+                  value="Submit" 
+                  className="btn custom-contact-btn d-block mx-auto" 
+                />
+              </div>
+              
+            </div>
+          </form>
+        </div>
           
-          <div className='Contact_form_container'>
+          
+          {/* <div className='Contact_form_container'>
 
           <div className='Contact_form_container_left'>
             <input type="hidden" name="contact_number" />
@@ -76,9 +111,8 @@ function Contact() {
           </div>
 
           <input type="submit" value="Submit"></input>
-          </div>
-        </form>
-                  
+          </div> */}
+      
       
 
       </div>

@@ -1,40 +1,27 @@
 .Projects {
     height:100vh;
     background-color: rgb(39, 39, 42);
-    padding-left: 9rem;
-    padding-right: 9rem;
 }
 
 .Projects_title {
-    text-align: start;
     padding-top: 7rem;
     margin-left: 10%;
-    margin-right: 10%; 
-    padding-bottom: 0px;
-   
-    
+    margin-right: 10%;    
 }
 
 div.Projects_title h1 {
     font-size: 2.8rem;
-    color:white;
-   
+    color:white; 
 }
 
 
 .Projects_list {
-    /* padding-top: 0px;
-    display: flex;
-    justify-content:center; */
-    /* May need to specify amt of cards on page */
-    /* flex-wrap: wrap;  */ /* Wrap cards to the next line if needed */ 
-    /* gap: 20px; */ /* Add space between cards */
-    /* margin: 0 auto;
-    padding: 1rem; */
-    /* margin-left: 10% !important;
-    margin-right: 10% !important;  */
-
 }
+.col-md-6 {
+    /**the row class automatically applies -15px negative margins on both sides to align the grid system correctly.  */
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
 
 .custom-projects-row {
     margin-left: 10% !important;
@@ -42,30 +29,9 @@ div.Projects_title h1 {
 }
 
 @media (max-width: 767px) { 
-    .Projects {
-        padding:1em;
-    }
-    .Projects_title {
-        margin-left: 0%;
-        margin-right: 0%; 
-    }
 
-    .custom-projects-row {
-        margin-left: 0% !important;
-        margin-right: 0% !important; 
-    }
 }
-@media (min-width: 768px) and (max-width: 1440px) {  
-    .Projects {
-        padding:1em;
-    }
-    .Projects_title {
-        margin-left: 0%;
-        margin-right: 0%; 
-    }
 
-    .custom-projects-row {
-        margin-left: 0% !important;
-        margin-right: 0% !important; 
-    }
+@media (min-width: 768px) and (max-width: 1440px) {  
+
 }

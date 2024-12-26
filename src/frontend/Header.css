@@ -1,10 +1,8 @@
 html { scroll-behavior: smooth; } /* smooth scrolling behavior for all anchor tags */
 .navbar.bg-body-tertiary.custom-nav{
   background-color: white !important; /* Overrides bg-body-tertiary background */
-   /* z-index: 100 !important; */
-  position:fixed !important; 
-  
 }
+
 /* Custom styles for the Navbar.Brand CHANGE NAME*/
 .navbar-brand{
   font-weight: bold;

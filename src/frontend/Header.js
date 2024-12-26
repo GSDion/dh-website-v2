@@ -1,16 +1,21 @@
 import './Header.css';
 import { Container, Navbar, Nav, NavbarToggle, NavbarCollapse } from 'react-bootstrap';
+import { useNavigate } from "react-router-dom";
 
-const scrollToTop = () => {
+
+function Header() {
+  const navigate = useNavigate();
+
+const scrollToTopofHome = () => {
+  navigate("/");
   window.scrollTo({ top: 0, behavior: 'smooth' });
 };
 
-function Header() {
   return (
-  <Navbar  className="bg-body-tertiary fixed-top navbar-expand-lg z-5 custom-nav"expand="lg">
+  <Navbar className="bg-body-tertiary fixed-top navbar-expand-lg z-5 custom-nav"expand="lg">
     <Container>
       <Navbar.Brand>
-          <span onClick={scrollToTop} style={{ cursor: 'pointer' }}>D.H.</span>
+          <span onClick={ scrollToTopofHome} style={{ cursor: 'pointer' }}>D.H.</span>
       </Navbar.Brand>
       <NavbarToggle aria-controls="navbar-nav" />
         <NavbarCollapse id="navbar-nav">

@@ -1,24 +1,19 @@
-#header {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    
-}
+
 /* Ensures reponsive containers */
 .Intro {
     display: flex;
     flex-direction: column;
-     flex-grow: 1;  /* Makes sure container fills up all the available space */
+    flex-grow: 1;  /* Makes sure container fills up all the available space */
     height: 100%; 
-     min-height: 100vh; /* Ensures the container always covers the full viewport height  */
+    min-height: 100vh; /* Ensures the container always covers the full viewport height  */
 }
 
 .About {
     display: flex;
     flex-direction: column;
-     flex-grow: 1;   /* Makes sure container fills up all the available space */
+    flex-grow: 1;   /* Makes sure container fills up all the available space */
     height: 100%; 
-     min-height: 100vh; /* Ensures the container always covers the full viewport height  */
+    min-height: 100vh; /* Ensures the container always covers the full viewport height  */
  }  
 
 .Skills {
@@ -27,7 +22,6 @@
      flex-grow: 1; /* Makes sure container fills up all the available space */
     height: 100%; 
      min-height: 100vh; /* Ensures the container always covers the full viewport height  */
-     
 }
 
 .Projects {
@@ -35,8 +29,7 @@
     flex-direction: column;
      flex-grow: 1;  /* Makes sure container fills up all the available space */
     height: 100%; 
-     min-height: 100vh; /* Ensures the container always covers the full viewport height  */
-     
+     min-height: 100vh; /* Ensures the container always covers the full viewport height  */  
 }
 
 .Contact {
@@ -47,19 +40,13 @@
      min-height: 100vh; /* Ensures the container always covers the full viewport height  */
 }
 
-/* Phones */
-@media (max-width: 767px) { 
-  
 
-
-  }
-  
   /* Tablets */
-  @media (min-width: 768px) and (max-width: 1440px) {
-   .Intro {
+@media (min-width: 768px) and (max-width: 1440px) {
+    .Intro {
     min-height: 80vh; /* Ensures the container always covers the full viewport height  */
-   }
-  .Contact {
+    }
+    .Contact {
     min-height: 80vh; /* Ensures the container always covers the full viewport height  */
-  }
+    }
   }

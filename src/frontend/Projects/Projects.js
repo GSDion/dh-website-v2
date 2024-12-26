@@ -1,6 +1,7 @@
 import './Projects.css';
 import './ProjectsCard';
 import ProjectsCard from './ProjectsCard';
+import Contact from '../Contact/Contact';
 
 function Projects() {
     return (
@@ -10,9 +11,10 @@ function Projects() {
            <h1>Projects</h1>
         </div>
 
-        <div className="row custom-projects-row">
+        <div className="row custom-projects-row ">
+          {/**the row class automatically applies -15px negative margins on both sides to align the grid system correctly.  */}
           {/* Tactical Emblem Hub */}
-          {/* <ProjectsCard 
+          {/* <ProjectsCard  
             ProjectsCardImage={require('../Pictures/Bookit_mods_homepage_02.png')} 
               ProjectsCardDate="Aug. 2024 – Present"
               ProjectsCardCategory="Web"
@@ -65,6 +67,8 @@ function Projects() {
               ProjectsCardTechStack="React, JavaScript, CSS, MongoDB, Express.js, Node.js, Git"
               id="dcc"
             />
+
+            
 
         
         </div>
