@@ -1,28 +1,30 @@
 import './Footer.css';
-
+import {  Nav } from 'react-bootstrap';
 
 function Footer() {
   return (
-    <div className='Footer'>
-        <div className="Footer_copyright">
-            <p>Copyright © Dion Humphrey 2024</p>
-        </div>
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top custom-copy-footer">
+        <p class="col-md-4 mb-0 ">&copy; 2024 Dion Humphrey</p>
 
-        <div className="Footer_social_links">
-            <a href="https://www.linkedin.com/in/dion-humphrey/" target='blank' class="fa fa-linkedin"> </a>
-            <a href="https://github.com/GSDion" target='blank' class="fa fa-github" > </a>
-            <a href="mailto:humphreydion@yahoo.com?subject=Hello!" target='blank' class="fa fa-yahoo" > </a>
-        </div>
+        <a href="https://www.linkedin.com/in/dion-humphrey/" col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none target='blank' class="fa fa-linkedin"> </a>
+        <a href="https://github.com/GSDion" col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none target='blank' class="fa fa-github" > </a>
+        <a href="mailto:humphreydion@yahoo.com?subject=Hello!" col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none target='blank' class="fa fa-yahoo" > </a>
 
-        <div className='Footer_nav_links'>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-            <a href={require('./Files/HumphreyDion_Resume_v11.pdf')} target='blank' >Resume</a>
-        </div>
-
-    </div>
+        <ul class="nav col-md-4 justify-content-end custom-nav-links-footer">
+          <Nav.Link href="/#about">About</Nav.Link>
+          <Nav.Link href="/#skills">Skills</Nav.Link>
+          <Nav.Link href="/#projects">Projects</Nav.Link>
+          <Nav.Link href="/#contact">Contact</Nav.Link>
+          <Nav.Link 
+            href={require('./Files/HumphreyDion_Resume_v12.pdf')} 
+            target="_blank"
+          >
+            Resume
+          </Nav.Link>
+        </ul>
+      </footer>
+    </div> 
   );
 }
 
