@@ -1,7 +1,6 @@
 import './Projects.css';
 import './ProjectsCard';
 import ProjectsCard from './ProjectsCard';
-import Contact from '../Contact/Contact';
 
 function Projects() {
     return (
