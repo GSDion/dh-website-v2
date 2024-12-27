@@ -5,6 +5,9 @@ import { Link } from 'react-router-dom';
 
 
 function ProjectsCard({ ProjectsCardImage, ProjectsCardDate, ProjectsCardCategory, ProjectsCardTitle, ProjectsCardDescription,ProjectsCardTechStack, ProjectsCardLink, id  }) {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
   return (
     <div className="col-md-6 mb-4">
       <div className="card custom-projects-card shadow-sm border-0">
@@ -30,7 +33,7 @@ function ProjectsCard({ ProjectsCardImage, ProjectsCardDate, ProjectsCardCategor
             <small className="text-muted">{ProjectsCardTechStack}</small>
           </p>
           {/* Link */}
-          <Link to={`/Projects/${id}`} className="btn btn-link text-decoration-none">
+          <Link to={`/Projects/${id}`} onClick={scrollToTop} className="btn btn-link text-decoration-none">
             Learn More
           </Link>
         </div>
