@@ -5,7 +5,8 @@
       "date": "April 2023 – May 2023",
       "description": "BookIt is an E-Cinema Booking website made by team of five using React.js, JavaScript, CSS, Java Spring Boot, and MySQL. It allows users to sign-up for the website, which then gives them the ability to book tickets for a variety of movies. Users are also allowed to add information to their account, such as their card information, first name, last name, and more. When booking a movie, users pick a specific seat, movie, and movie time. After the confirmation of a user's order, users are sent a receipt.",
       "tools": ["React", "JavaScript", "CSS", "Java Spring Boot", "MySQL", "Agile", "Scrum", "Git"],
-      "images": ["/Pictures/Bookit_mods_homepage_02.png", "/Pictures/Bookit_mods_homepage_coming_soon.png", "/Pictures/Bookit_mods_homepage_now_showing.png", "/Pictures/Bookit__mods_signup_geenric.png", "/Pictures/Bookit_mods_edit_profile.png", "/Pictures/Bookit_admin_movies.png", "/Pictures/Bookit_admin_users.png" , "/Pictures/Bookit_admin_promotions.png"]
+      "images": ["/Pictures/Bookit_mods_homepage_02.png", "/Pictures/Bookit_mods_homepage_coming_soon.png", "/Pictures/Bookit_mods_homepage_now_showing.png", "/Pictures/Bookit__mods_signup_geenric.png", "/Pictures/Bookit_mods_edit_profile.png", "/Pictures/Bookit_admin_movies.png", "/Pictures/Bookit_admin_users.png" , "/Pictures/Bookit_admin_promotions.png"],
+      "github": "https://github.com/MenaceHecker/bookit"
     },
     {
       "id": "dcc",
@@ -13,7 +14,8 @@
       "date": "April 2023 – May 2023",
       "description": "DCC is a movie review website made by a team a three using the MERN stack. It allows users to create an account, and create, read, edit, and delete movie reviews",
       "tools": ["React", "JavaScript", "CSS", "MongoDB", "Express.js", "Node.js", "Git"],
-      "images": ["/Pictures/DCC_homepage_logged_out.png", "/Pictures/DCC_homepage_logged_in.png", "/Pictures/DCC_movie_review.png"]
+      "images": ["/Pictures/DCC_homepage_logged_out.png", "/Pictures/DCC_homepage_logged_in.png", "/Pictures/DCC_movie_review.png"],
+      "github": "https://github.com/ccchitwood/4300MovieSite"
     },
     {
       "id": "stacktrack",
@@ -21,7 +23,8 @@
       "date": "Sep. 2024 – Nov. 2024",
       "description": "A Library Management System designed to streamline the process of managing library users and books. It enables administrators/librarians to efficiently track and manage book circulation, user accounts, and overall library operations. In additon to operations catered towards adminsitrators/librarians, StackTrack includes the ability for library patrons to manage and view their account information.",
       "tools": ["Java", "Java Swing", "MySQL", "Git"],
-      "images": ["/Pictures/lms_signup.png",  "/Pictures/lms_login.png", "/Pictures/lms_admin_dashboard.png", "/Pictures/lms_admin_add_book.png", "/Pictures/lms_admin_view_books.png", "/Pictures/lms_admin_add_user.png", "/Pictures/lms_admin_view_users.png", "/Pictures/lms_user_dashboard.png", "/Pictures/lms_user_view_issued_books.png", "/Pictures/lms_user_view_issued_books.png"]
+      "images": ["/Pictures/lms_signup.png",  "/Pictures/lms_login.png", "/Pictures/lms_admin_dashboard.png", "/Pictures/lms_admin_add_book.png", "/Pictures/lms_admin_view_books.png", "/Pictures/lms_admin_add_user.png", "/Pictures/lms_admin_view_users.png", "/Pictures/lms_user_dashboard.png", "/Pictures/lms_user_view_issued_books.png", "/Pictures/lms_user_view_issued_books.png"],
+      "github": "https://github.com/GSDion/Lib-Mgmt-Sys"
     }
   ]
   

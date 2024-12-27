@@ -33,7 +33,7 @@ function ProjectPage() {
                     />
                   </Carousel.Item>
                 ))}
-              </Carousel>
+            </Carousel>
           </div>
           <div className="col-md-4">
             <h3>What Is It?</h3>
@@ -45,6 +45,8 @@ function ProjectPage() {
                 <li key={index}>{tool}</li>
               ))}
             </ul>
+            <h4> Links </h4>
+            <a href={project.github} link-body-emphasis text-decoration-none target='blank' class="fa fa-github fa-2x"> </a>
           </div>
         </div>
       </div>
