@@ -20,6 +20,10 @@ function Intro() {
             <h1>An Aspiring Software Engineer.</h1>
           </Col>
 
+          <Col>
+            <img src="/Pictures/undraw_programming_65t2.svg" class="img-fluid custom-intro-img mx-auto mx-auto d-block" alt="computer programming"></img>
+          </Col>
+
           {/* <Col xs={12} className="">
             <div className="image-container">
               <img

@@ -6,6 +6,11 @@
   display:none;
 } */
 
+.custom-intro-img {
+  max-width: 70% !important;
+  margin-top:15px;
+}
+
 .Intro_content {
   display: flex;
   flex-direction: column; 
@@ -76,10 +81,12 @@ div.Intro_content h1 {
     text-align: center; 
   }
 
-  .image-container img {
-    max-width: 200%; /* Make sure the image scales responsively  */
-    /* height: auto;  */
+  .custom-intro-img {
+    max-width: 100% !important;
+    margin-top:15px;
   }
+
+
 }
     
 /* Tablets */

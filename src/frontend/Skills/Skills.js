@@ -23,7 +23,7 @@ function Skills() {
           <SkillsCard
             SkillsCardImage={faPython} 
             SkillsCardTitle="Python"
-            color="3c73a2"
+            color="#3c73a2"
            />
 
           <SkillsCard
