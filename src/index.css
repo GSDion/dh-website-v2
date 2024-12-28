@@ -1,3 +1,4 @@
+/* Make dark mode w/ variables */
 :root {
   
 }
@@ -11,38 +12,4 @@ html, body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(255, 255, 255);
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-
-/* Responsive Styles for Mobile */
-
-/* Phones */
-@media (max-width: 768px) {
-  html, body {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-    /* height: 100%; */
-    width: 100%;
-  }
-/* Tablets */
-@media (min-width: 768px) and (max-width: 1440px) {
-  html, body {
-    /* margin: 0;
-    height: 100vh; */
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-  }
-}
-
 }

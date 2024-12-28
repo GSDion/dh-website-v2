@@ -7,10 +7,10 @@
 .About_title {
     padding-top: 7rem;
     text-align: start;
-    
     margin-left: 10%;
     margin-right: 10%; 
 }
+
 div.About_title h1 {
     font-size: 2.8rem;
     color: rgb(255, 255, 255);
@@ -25,6 +25,7 @@ div.About_title h1 {
     margin-right: 10%; 
     margin-top: 2%;
 }
+
 .About_paragraph {
     color: rgb(255, 255, 255);
     font-size: 1.2rem;
@@ -32,29 +33,12 @@ div.About_title h1 {
 }
 
 
-@media (max-width: 767px) {
+@media (min-width: 768px) and (max-width: 1440px) {
 
-    .About {
-        padding:0rem;
+    .About_paragraph {
+        font-size: 30px;
     }
 
-    .About_photo {
-        
-        padding:0rem;
-    }
-
-
-    @media (min-width: 768px) and (max-width: 1440px) {
-        .About_container {
-            flex-direction: row;
-            margin-bottom: 0;
-            max-height: 50%;
-        }
-
-        .About_paragraph {
-           font-size: 30px;
-        }
-        
-    }
 }
+
 

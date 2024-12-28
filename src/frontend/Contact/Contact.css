@@ -1,6 +1,5 @@
 .Contact {
   height:100vh;
- 
 }
 
 .Contact_title {
@@ -30,7 +29,6 @@ div.Contact_title h1 {
   padding:50px;
 }
 
-
 input[type=submit] {
   background-color: rgb(46, 50, 58);
   color: white;
@@ -43,19 +41,13 @@ input[type=submit] {
   padding:0px !important;
 }
 
-
-
 /* MEDIA QUERIES */
 /* For phones (max width 767px) */
 @media (max-width: 767px) {
 
   input[type="submit"] {
-      width: 100%; 
-      grid-column: 1; 
+    width: 100%; 
+    grid-column: 1; 
   }
 
 }
-@media (min-width: 768px) and (max-width: 1440px) {
-
-}
-
