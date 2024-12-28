@@ -43,6 +43,7 @@ div.Intro_content h1 {
     #ff5722
   );
   -webkit-background-clip: text; 
+  background-clip: text;
   -webkit-text-fill-color: transparent; 
   display: inline; 
 }
