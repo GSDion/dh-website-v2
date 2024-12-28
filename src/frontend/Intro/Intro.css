@@ -1,10 +1,6 @@
 .Intro {
   min-height: 100vh;
 }
-/* 
-.Intro_br {
-  display:none;
-} */
 
 .custom-intro-img {
   max-width: 70% !important;
@@ -16,12 +12,10 @@
   flex-direction: column; 
   align-items: center;
   height: 100vh; 
-  margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
+  margin: 0; 
+  padding: 0; 
   margin-top: 5%;
   letter-spacing: -1px;
-  /* position:relative; */
-   /* Important for absolute positioning of image. Have to fix this because makes header nav on mobile too transparent*/
 }
 
 div.Intro_content h1 {
@@ -53,16 +47,6 @@ div.Intro_content h1 {
   display: inline; 
 }
 
-.image-container {
-  position: absolute; /* Anchors image to the bottom, but it's not in the middle */
-  bottom: 0; /* Sticks the container to the very bottom */  
-  left: 50%; /* Centers the container horizontally */
-  transform: translateX(-50%); /* Corrects offset caused by absolute positioning */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .custom-col-intro{ 
   margin-top:2.5em !important;
 }
@@ -72,33 +56,23 @@ div.Intro_content h1 {
 
   .Intro_content {
     margin-top:12%;
-    align-items: center;
-    text-align: center;
   }
 
   div.Intro_content h1 {
     font-size: 7vh;
-    text-align: center; 
   }
 
   .custom-intro-img {
     max-width: 100% !important;
     margin-top:15px;
   }
-
-
 }
     
 /* Tablets */
 @media (min-width: 768px) and (max-width: 1440px) {
 
-  .Intro {
-    min-height:100%;
-  }
-
   div.Intro_content h1 {
     font-size: 8vh;
-    text-align: center;
   }
 
 }

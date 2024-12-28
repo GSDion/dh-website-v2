@@ -14,7 +14,7 @@ const scrollToTopofHome = () => {
   return (
   <Navbar className="bg-body-tertiary fixed-top navbar-expand-lg z-5 custom-nav"expand="lg">
     <Container>
-      <Navbar.Brand>
+      <Navbar.Brand className='custom-navbar-brand'>
           <span onClick={ scrollToTopofHome} style={{ cursor: 'pointer' }}>D.H.</span>
       </Navbar.Brand>
       <NavbarToggle aria-controls="navbar-nav" />

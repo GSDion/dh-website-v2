@@ -1,4 +1,3 @@
-
 import './Skills.css';
 import SkillsCard from './SkillsCard';
 import { faDocker, faReact, faJs, faCss3Alt, faGithub, faPython, faJava, faHtml5, faAws, faGoogle} from '@fortawesome/free-brands-svg-icons';
@@ -11,7 +10,6 @@ function Skills() {
        <h1>Skills</h1>
       </div>
 
-      {/* <div className='Skills_list'> */}
       <div className="d-flex flex-wrap justify-content-start z-1 Skills_list">
           <SkillsCard
             SkillsCardImage={faJava} 

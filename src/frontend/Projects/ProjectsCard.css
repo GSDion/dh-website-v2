@@ -35,10 +35,6 @@
 
 .custom-projects-card-img-top {
   border-radius: 12px 12px 0 0;
-  height: 180px; /* Fixed image height */
+  height: 180px; 
   object-fit: cover; /* Keep image contained */
-}
-  
-@media (max-width: 768px) {
-
 }

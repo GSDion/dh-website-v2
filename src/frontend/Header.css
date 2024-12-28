@@ -1,10 +1,11 @@
-html { scroll-behavior: smooth; } /* smooth scrolling behavior for all anchor tags */
+/* smooth scrolling behavior for all anchor tags */
+html { scroll-behavior: smooth; } 
 .navbar.bg-body-tertiary.custom-nav{
   background-color: white !important; /* Overrides bg-body-tertiary background */
 }
 
-/* Custom styles for the Navbar.Brand CHANGE NAME*/
-.navbar-brand{
+/* Custom styles for the Navbar.Brand */
+.custom-navbar-brand {
   font-weight: bold;
    font-size: 2rem;
 }
@@ -17,74 +18,9 @@ html { scroll-behavior: smooth; } /* smooth scrolling behavior for all anchor ta
   -webkit-text-fill-color: transparent;
   font-size: 2rem;
 }
+
 /* Custom styles for the Nav Links */
 .custom-nav-links-header .nav-link {
   color: rgb(39, 39, 42) !important; /* Always black, overriding Bootstrap */
   font-size: 1.2rem;
-}
-
-/* OBSELETE */ 
-.Header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: transparent;
-  top: 0 ;
-  z-index: 1000 ;
-  padding-left: 10rem;
-  padding-right: 10rem;
-  height:60px;
-  right:0;
-  left:0 ;
-  position: fixed !important;
-}
-
-.Header_title {
-  display: inline-block;  
-    color: rgb(190, 185, 185);
-    margin-left: 10px;
-    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 1.5rem;
-}
-
-div.Header_title h1 {
-  background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 1.5rem;
-}
-
-/* Header Links */
-.Header_hrefs {
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    color:rgb(39, 39, 42);
-    margin-left: 10px;
-    margin-right: 10px;
-    text-decoration: none;
-    font-size: 1.35rem;
-    padding: 0.5rem 1rem; 
-  }
- div.Header_hrefs a:visited {
-  color:rgb(39, 39, 42);
-  }
-  div.Header_hrefs  a:link {
-    color:black;
-    text-decoration: none;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  div.Header_hrefs  a:hover {
-    color:black;
-  }
- 
-
-/* Phones */
-@media (max-width: 767px) { 
-  .Header {
-    padding:0rem;
-  }
 }
