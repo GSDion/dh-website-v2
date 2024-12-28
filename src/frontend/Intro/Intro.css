@@ -64,7 +64,7 @@ div.Intro_content h1 {
   }
 
   .custom-intro-img {
-    max-width: 100% !important;
+    max-width: 100% !important; /* May need to adjust for reponsiveness */
     margin-top:15px;
   }
 }
