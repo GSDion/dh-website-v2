@@ -9,7 +9,7 @@ function Footer() {
 
         <a href="https://www.linkedin.com/in/dion-humphrey/" col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none target='blank' class="fa fa-linkedin fa-2x"> </a>
         <a href="https://github.com/GSDion" col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none target='blank' class="fa fa-github fa-2x" > </a>
-        <a href="mailto:humphreydion@yahoo.com?subject=Hello!" col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none target='blank' class="fa fa-yahoo fa-2x" > </a>
+        <a href="mailto:humphreydion@yahoo.com?subject=Hello!" col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none target='blank' class="fa fa-envelope fa-2x" > </a>
 
         <ul class="nav col-md-4 justify-content-end custom-nav-links-footer">
           <Nav.Link href="/#about">About</Nav.Link>

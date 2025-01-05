@@ -1,6 +1,8 @@
 import './Skills.css';
 import SkillsCard from './SkillsCard';
-import { faDocker, faReact, faJs, faCss3Alt, faGithub, faPython, faJava, faHtml5, faAws, faGoogle} from '@fortawesome/free-brands-svg-icons';
+import { faDocker, faReact, faJs, faCss3Alt, faPython, faJava, faHtml5, faAws, faGoogle, faNodeJs} from '@fortawesome/free-brands-svg-icons';
+import {faCodeBranch, faDatabase} from '@fortawesome/free-solid-svg-icons'
+
 
 function Skills() {
     return (
@@ -49,16 +51,53 @@ function Skills() {
             color="#08d9ff"
            />
 
-          <SkillsCard
-            SkillsCardImage={faGoogle} 
-            SkillsCardTitle="Google Cloud Platform"
-            color="#fbbe0d"
+           {/* <SkillsCard
+            SkillsCardImage={fa} 
+            SkillsCardTitle="Express.js"
+            color="#"
+           /> */}
+
+           
+           <SkillsCard
+            SkillsCardImage={faNodeJs} 
+            SkillsCardTitle="Node.js"
+            color="#5fa04e"
            />
+
+          <SkillsCard
+            SkillsCardImage={faDatabase} 
+            SkillsCardTitle="SQL"
+            color="#399ddc"
+           />
+
+           {/* <SkillsCard
+            SkillsCardImage={fa} 
+            SkillsCardTitle="MySQL"
+            color="#"
+           /> */}
+
+           {/* <SkillsCard
+            SkillsCardImage={fa} 
+            SkillsCardTitle="SQLite"
+            color="#"
+           /> */}
+
+          {/* <SkillsCard
+            SkillsCardImage={fa} 
+            SkillsCardTitle="MongoDB"
+            color="#"
+           /> */}
 
           <SkillsCard
             SkillsCardImage={faAws} 
             SkillsCardTitle="AWS"
             color="#ff9c08"
+           />
+
+          <SkillsCard
+            SkillsCardImage={faGoogle} 
+            SkillsCardTitle="Google Cloud Platform"
+            color="#fbbe0d"
            />
 
           <SkillsCard
@@ -74,7 +113,7 @@ function Skills() {
            />
 
           <SkillsCard
-            SkillsCardImage={faGithub} 
+            SkillsCardImage={faCodeBranch}
             SkillsCardTitle="Git"
             color="#e94e31"
            />
@@ -84,6 +123,17 @@ function Skills() {
             SkillsCardTitle="Docker"
             color="#1e63ee"
            />
+
+           {/* <SkillsCard
+            SkillsCardImage={fa} 
+            SkillsCardTitle="Flask"
+            color="#"
+           /> */}
+
+
+           
+
+
 
       </div>
 
