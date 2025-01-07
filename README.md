@@ -61,6 +61,10 @@
     ```sh
    git clone https://github.com/GSDion/dh-website-v2.git
    ```
+<!-- 2. Navigate to the directory 
+    ```sh
+   cd dh-website-v2
+   ``` -->
 2. Install node modules
     ```sh
    npm install
