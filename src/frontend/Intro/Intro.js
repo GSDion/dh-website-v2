@@ -10,7 +10,7 @@ function Intro() {
             <h1>
               Hello! I'm <span className="rainbow">Dion.</span>
             </h1>
-            <h1>An Aspiring Software Engineer.</h1>
+            <h1>An Aspiring Software Developer.</h1>
           </Col>
           <Col>
             <img src="/Pictures/undraw_programming_65t2.svg" class="img-fluid custom-intro-img mx-auto mx-auto d-block" alt="computer programming"></img>

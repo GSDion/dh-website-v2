@@ -25,7 +25,7 @@ const scrollToTopofHome = () => {
               <Nav.Link href="/#projects">Projects</Nav.Link>
               <Nav.Link href="/#contact">Contact</Nav.Link>
               <Nav.Link 
-                href={require('./Files/HumphreyDion_Resume_v12.pdf')} 
+                href={require('./Files/HumphreyDion_Resume_v13.pdf')} 
                 target="_blank"
               >
                 Resume

@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div class="container">
       <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top custom-copy-footer">
-        <p class="col-md-4 mb-0 ">&copy; 2025 Dion Humphrey</p>
+        <p class="col-md-4 mb-0 ">&copy; 2024-2025 Dion Humphrey</p>
 
         <a href="https://www.linkedin.com/in/dion-humphrey/" col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none target='blank' class="fa fa-linkedin fa-2x"> </a>
         <a href="https://github.com/GSDion" col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none target='blank' class="fa fa-github fa-2x" > </a>
@@ -17,7 +17,7 @@ function Footer() {
           <Nav.Link href="/#projects">Projects</Nav.Link>
           <Nav.Link href="/#contact">Contact</Nav.Link>
           <Nav.Link 
-            href={require('./Files/HumphreyDion_Resume_v12.pdf')} 
+            href={require('./Files/HumphreyDion_Resume_v13.pdf')} 
             target="_blank"
           >
             Resume
