@@ -4,7 +4,7 @@
 
 .custom-intro-img {
   max-width: 70% !important;
-  margin-top:15px;
+  margin-top:8px;
 }
 
 .Intro_content {
@@ -14,7 +14,7 @@
   height: 100vh; 
   margin: 0; 
   padding: 0; 
-  margin-top: 5%;
+  margin-top: 4.5%;
   letter-spacing: -1px;
 }
 
@@ -64,7 +64,8 @@ div.Intro_content h1 {
   }
 
   .custom-intro-img {
-    max-width: 100% !important; /* May need to adjust for reponsiveness */
+    max-width: 100% !important; /* May need to adjust for reponsiveness b/c image 
+    struggles to compress on very small screens */
     margin-top:15px;
   }
 }
@@ -73,7 +74,41 @@ div.Intro_content h1 {
 @media (min-width: 768px) and (max-width: 1440px) {
 
   div.Intro_content h1 {
-    font-size: 8vh;
+    font-size: 7vh;
   }
 
+  
+  .Intro_content {
+    margin-top:15%;
+  }
+
+  .custom-intro-img {
+    max-width: 100% !important;  /* May need to adjust for reponsiveness b/c image 
+    struggles to compress on very small screens */
+  }
+
+}
+
+/* Specifically Nest Hubs */
+/* Nest Hub Max*/
+@media (device-width: 1280px) and (device-height: 800px) { 
+  .Intro_content {
+    margin-top: 4%;
+  }
+
+  .custom-intro-img {
+    max-width: 70% !important;  /* May need to adjust for reponsiveness b/c image 
+    struggles to compress on very small screens */
+  }
+}
+/* Nest Hub*/
+@media (device-width: 1024px) and (device-height: 600px) { 
+  .Intro_content {
+    margin-top: 4%;
+  }
+
+  .custom-intro-img {
+    max-width: 70% !important;  /* May need to adjust for reponsiveness b/c image 
+    struggles to compress on very small screens */
+  }
 }
