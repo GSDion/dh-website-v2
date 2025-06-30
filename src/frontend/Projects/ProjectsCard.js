@@ -4,9 +4,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 
-function ProjectsCard({ ProjectsCardImage, ProjectsCardDate, ProjectsCardCategory, ProjectsCardTitle, ProjectsCardDescription,ProjectsCardTechStack, ProjectsCardLink, id  }) {
+function ProjectsCard({ ProjectsCardImage, ProjectsCardDate, ProjectsCardCategory, ProjectsCardTitle, ProjectsCardDescription,ProjectsCardTechStack, id  }) {
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    // window.scrollTo({ top: 0, behavior: 'smooth' });
+    // Doesnt work on firefox
+    window.scrollTo({ top: 0, behavior: 'smooth'});
   };
   return (
     <div className="col-md-6 mb-4">
