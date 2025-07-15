@@ -12,7 +12,7 @@ function About() {
 
         <div className = 'About_container'>
           <div className = 'About_paragraph'> 
-            <p>Hello! My name is Dion. I'm a recent graduate from the University of Georgia, where
+            <p>Hello! My name is Dion. I'm a recent graduate of the University of Georgia, where
               I obtained a degree in Computer Science with a certifcate in Applied Data Science. At the University of Georgia, I learned about topics such as 
               cloud computing, web development, and machine learning. With this knowledge, I am eager to pursue a career in software development.
             </p>
