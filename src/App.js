@@ -8,7 +8,7 @@ import Contact from './frontend/Contact/Contact'
 import Homepage from './frontend/Homepage'
 import ProjectPage from './frontend/Projects/ProjectPage'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Timeline from './frontend/Experience_and_Education/Exp_Edu'
+import Timeline from './frontend/Experience_and_Education/experience-education'
 //Intro, About (Grey), Experience/Education, Projects (Grey), Skills, Footer
 function App() {
   return (
