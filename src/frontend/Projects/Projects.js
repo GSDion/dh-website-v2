@@ -12,27 +12,6 @@ function Projects() {
 
         <div className="row custom-projects-row ">
           {/**the row class automatically applies -15px negative margins on both sides to align the grid system correctly.  */}
-          {/* Tactical Emblem Hub */}
-          {/* <ProjectsCard  
-            ProjectsCardImage={require('../Pictures/Bookit_mods_homepage_02.png')} 
-              ProjectsCardDate="Aug. 2024 – Present"
-              ProjectsCardCategory="Web"
-              ProjectsCardTitle="Bookit - E-Cinema Booking Site"
-              ProjectsCardDescription="An E-Cinema Booking website made by team of five using React.js, CSS, Java Spring Boot, and MySQL."
-              ProjectsCardTechStack="React, JavaScript, CSS, Java Spring Boot, MySQL, Agile, Scrum, Git"
-              ProjectsCardLink="#"
-            /> */}
-
-            {/* GoodReadsFilter */}
-          {/* <ProjectsCard 
-            ProjectsCardImage={require('../Pictures/Bookit_mods_homepage_02.png')} 
-              ProjectsCardDate="Sep. 2024 – 2024"
-              ProjectsCardCategory="Web"
-              ProjectsCardTitle="GoodReadsFilter"
-              ProjectsCardDescription=""
-              ProjectsCardTechStack="Python, Flask, Pandas, CSS, HTML, JavaScript, Git"
-              ProjectsCardLink="#"
-            /> */}
 
             {/* StackTrack */}
           <ProjectsCard 
@@ -67,6 +46,27 @@ function Projects() {
               id="dcc"
             />
 
+            {/* Tactical Emblem Hub */}
+          <ProjectsCard  
+            ProjectsCardImage="Pictures/TEH_Homepage.png"
+              ProjectsCardDate="Jan. 2025 – July 2025"
+              ProjectsCardCategory="Web"
+              ProjectsCardTitle="Tactical Emblem Hub - Team Management Tool"
+              ProjectsCardDescription="A website for managing Fire Emblem characters, teams, and strategies"
+              ProjectsCardTechStack="Python, Flask, HTML, CSS, JavaScript, Bootstrap, SQLAlchemy, SQLite, Git"
+              id="teh"
+            />
+          
+           {/* GoodReadsFilter */}
+          <ProjectsCard  
+            ProjectsCardImage="Pictures/GoodReadsFilter_Homepage.png"
+              ProjectsCardDate="Sep. 2024 – Jan 2025"
+              ProjectsCardCategory="Web"
+              ProjectsCardTitle="GoodReadsFilter"
+              ProjectsCardDescription="GoodreadsFilter allows you to filter the data associated with your Goodreads account by a specified filter (Author) and filter constraint (George R.R. Martin)."
+              ProjectsCardTechStack="Python, Flask, HTML, CSS, JavaScript, Bootstrap, Git"
+              id="goodreadsfilter"
+            />
             
 
         

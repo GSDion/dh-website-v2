@@ -25,6 +25,24 @@
       "tools": ["Java", "Java Swing", "MySQL", "Git"],
       "images": ["/Pictures/lms_signup.png",  "/Pictures/lms_login.png", "/Pictures/lms_admin_dashboard.png", "/Pictures/lms_admin_add_book.png", "/Pictures/lms_admin_view_books.png", "/Pictures/lms_admin_add_user.png", "/Pictures/lms_admin_view_users.png", "/Pictures/lms_user_dashboard.png", "/Pictures/lms_user_view_issued_books.png", "/Pictures/lms_user_view_issued_books.png"],
       "github": "https://github.com/GSDion/Lib-Mgmt-Sys"
+    },
+    {
+      "id": "teh",
+      "title": "Tactical Emblem Hub - Team Management Tool",
+      "date": "Jan. 2025 – July 2025",
+      "description": "A website for managing Fire Emblem characters, teams, and strategies. It allows users to build custom teams, create detailed strategies, and refine their tactics to efficiently clear Fire Emblem maps.",
+      "tools": ["Python", "Flask", "HTML", "CSS", "JavaScript", "Bootstrap", "SQLAlchemy", "SQLite", "Git"],
+      "images": ["/Pictures/TEH_Homepage.png"],
+      "github": "https://github.com/GSDion/Tactical-Emblem-Hub"
+    },
+    {
+      "id": "goodreadsfilter",
+      "title": "GoodReadsFilter",
+      "date": "Sep. 2024 – Jan 2025",
+      "description": "GoodreadsFilter allows you to filter the data associated with your Goodreads account by a specified filter (Author) and filter constraint (George R.R. Martin). Each filter is associated with a filter constraint and you are allowed to select multiple pairs when you choose to filter your Goodreads data.",
+      "tools": ["Python", "Flask", "HTML", "CSS", "JavaScript", "Bootstrap", "Git"],
+      "images": ["/Pictures/GoodReadsFilter_Homepage.png", "/Pictures/GoodReadsFilter_Results.png"],
+      "github": "https://github.com/GSDion/Goodreads-list-filter"
     }
   ]
   
