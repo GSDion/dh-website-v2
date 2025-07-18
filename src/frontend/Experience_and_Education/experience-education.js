@@ -3,10 +3,14 @@ import { VerticalTimeline, VerticalTimelineElement}  from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css';
 import './experience-education.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import {
+//   faBriefcase,
+//   faSchool,
+//   faStar,
+// } from '@fortawesome/free-solid-svg-icons';
 import {
   faBriefcase,
   faSchool,
-  faStar,
 } from '@fortawesome/free-solid-svg-icons';
 
 function Timeline() {
