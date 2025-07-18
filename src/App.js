@@ -8,7 +8,8 @@ import Contact from './frontend/Contact/Contact'
 import Homepage from './frontend/Homepage'
 import ProjectPage from './frontend/Projects/ProjectPage'
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Timeline from './frontend/Experience_and_Education/Exp_Edu'
+//Intro, About (Grey), Experience/Education, Projects (Grey), Skills, Footer
 function App() {
   return (
     <Router>
@@ -20,8 +21,9 @@ function App() {
         <Route exact path="/Skills" element={<Skills />}></Route>
         <Route exact path="/Projects" element={<Projects />}></Route>
         <Route exact path="/Contact" element={<Contact />}></Route>
+        <Route exact path="/Experience" element={<Timeline/>}></Route>
         {/* Dynamic project route */}
-        <Route path="/Projects/:id" element={<ProjectPage />} />
+        <Route path="/Projects/:id" element={<ProjectPage />} />    
       </Routes>
     </div>
   </Router>
