@@ -16,9 +16,13 @@ import {
 function Timeline() {
     return (
         <div>
+            <div className='Exp_Edu_title'>
+                <h1>Education and Experience</h1>
+            </div>
+           
             <VerticalTimeline className="custom-gradient-timeline">
 
-             {/* First Job */}
+            {/* First Job
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: 'rgb(39, 39, 42)', color: '#fff' }}
@@ -36,11 +40,33 @@ function Timeline() {
                 <p>
                 First Job. First Job. First Job. First Job. First Job. First Job.
                 </p>
+            </VerticalTimelineElement> */}
+
+            {/* First Job */}
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                contentStyle={{ background: 'rgb(39, 39, 42)', color: '#fff' }}
+                contentArrowStyle={{ borderRight: '7px solid  #7e57c2' }}
+                date="2025 - Present"
+                iconStyle={{ background: 'rgb(39, 39, 42)', color: '#fff' }}
+                icon={<FontAwesomeIcon icon={faBriefcase} />}
+                
+                dateClassName="timeline_date"
+                
+            >
+                <h3 className="vertical-timeline-element-title">Operations Support Application Developer @ Georgia Power</h3>
+                <h4 className="vertical-timeline-element-subtitle">Atlanta, GA</h4>
+                
+                <p>
+                First Job. First Job. First Job. First Job. First Job. First Job.
+                </p>
             </VerticalTimelineElement>
             
             {/* UGA */}
-            <VerticalTimelineElement
-                className="vertical-timeline-element--work"
+            
+            
+            <VerticalTimelineElement 
+                className="vertical-timeline-element--work "
                 contentStyle={{ background: 'rgb(39, 39, 42)', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  #f48fb1' }}
                 date="2022 - 2024"
@@ -49,14 +75,14 @@ function Timeline() {
                 dateClassName="timeline_date"
                 
             >
-                <h3 className="vertical-timeline-element-title">University of Georgia</h3>
+                <h3 className="vertical-timeline-element-title">BS in Computer Science @ University of Georgia</h3>
                 <h4 className="vertical-timeline-element-subtitle">Athens, GA</h4>
                 <p>
                 I obtained my Bachelor of Science in Computer Science from the University of Georgia with
                 a 3.74 GPA (Cum Laude). I also obtained a certificate in Applied Data Science.
                 </p>
             </VerticalTimelineElement>
-
+           
             {/* Georgia Southern University */}
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
@@ -68,7 +94,7 @@ function Timeline() {
                 dateClassName="timeline_date"
                 
             >
-                <h3 className="vertical-timeline-element-title">Georgia Southern University</h3>
+                <h3 className="vertical-timeline-element-title">Computer Science @ Georgia Southern University</h3>
                 <h4 className="vertical-timeline-element-subtitle">Statesboro, GA</h4>
                 <p>
                 I completed my first two years of study at Georgia Southern University
